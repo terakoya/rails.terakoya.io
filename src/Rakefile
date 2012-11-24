@@ -1,0 +1,6 @@
+task :watchr do
+  system('haml index.haml ../index.html')
+  system('sass style.scss ../style.css')
+end
+
+task :default=>[:watchr]
