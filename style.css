@@ -3,3 +3,6 @@ body {
 
 p {
   margin-bottom: 20px; }
+
+#map {
+  height: 300px; }
