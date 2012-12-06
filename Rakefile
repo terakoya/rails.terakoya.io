@@ -1,10 +1,13 @@
-task :default => :watchr
+task :default => :compile
 
-task :watchr do
-  ['haml src/index.haml index.html', 'sass src/style.scss style.css'].each do |command|
-    puts command
-    system(command)
-  end
+def execute_command(cmdline)
+  puts cmdline
+  system cmdline
+end
+
+task :compile do
+  execute_command 'haml src/index.haml index.html'
+  execute_command 'sass src/style.scss style.css'
 
   puts "Done!"
 end
