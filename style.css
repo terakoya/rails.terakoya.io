@@ -1,5 +1,5 @@
 body {
-  padding: 60px 0;
+  padding: 30px 0;
   margin: 15px; }
 
 h3 {
@@ -7,6 +7,82 @@ h3 {
 
 p {
   margin-bottom: 20px; }
+
+.about {
+  margin-bottom: 20px; }
+  .about .left-box {
+    width: 49%;
+    margin-right: 20px;
+    float: left; }
+  .about .time-table .table {
+    width: 45%;
+    max-width: none; }
+
+.courses {
+  margin-bottom: 20px; }
+  .courses .course {
+    width: 30%;
+    margin-right: 20px;
+    float: left; }
+
+.masters {
+  padding: 10px; }
+  .masters .master,
+  .masters .calligrapher {
+    position: relative;
+    width: 46%;
+    min-height: 170px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    float: left; }
+    .masters .master .name,
+    .masters .calligrapher .name {
+      font-weight: bold; }
+    .masters .master .icon,
+    .masters .calligrapher .icon {
+      position: absolute; }
+    .masters .master ul,
+    .masters .calligrapher ul {
+      list-style: none;
+      margin: 0; }
+      .masters .master ul li,
+      .masters .calligrapher ul li {
+        float: left; }
+        .masters .master ul li .link i,
+        .masters .calligrapher ul li .link i {
+          font-size: 120%; }
+    .masters .master .description,
+    .masters .calligrapher .description {
+      font-size: 80%; }
+    .masters .master ul,
+    .masters .master .name,
+    .masters .master .description,
+    .masters .calligrapher ul,
+    .masters .calligrapher .name,
+    .masters .calligrapher .description {
+      padding-left: 90px; }
+  .masters .last {
+    min-height: 100px; }
+
+.calligrapher {
+  position: relative;
+  min-height: 100px;
+  margin-right: 20px;
+  margin-bottom: 10px; }
+  .calligrapher .name {
+    font-weight: bold; }
+  .calligrapher .icon {
+    position: absolute; }
+  .calligrapher ul {
+    list-style: none;
+    margin: 0; }
+    .calligrapher ul li {
+      float: left; }
+      .calligrapher ul li .link i {
+        font-size: 120%; }
+  .calligrapher ul,
+  .calligrapher .name {
+    padding-left: 90px; }
 
 #map {
   height: 300px; }
