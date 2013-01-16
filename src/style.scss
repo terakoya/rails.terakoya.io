@@ -1,6 +1,29 @@
 body {
   padding: 30px 0;
+}
+
+body.container {
   margin: 15px;
+}
+
+header {
+  margin-bottom: 20px;
+  background-image: url("src/assets/images/header.png");
+  height: 300px;
+  box-shadow: 0px 5px 15px 0px rgba(100, 100, 100, 0.4);
+}
+
+footer {
+  background-image: url("src/assets/images/footer.png");
+  background-repeat: no-repeat;
+  height: 470px;
+}
+
+h2 {
+  background-image: url("src/assets/images/headline.png");
+  background-repeat: no-repeat;
+  color: #333;
+  padding: 3px 5px;
 }
 
 h3 {
@@ -11,9 +34,25 @@ p {
   margin-bottom: 20px;
 }
 
-.about {
-  margin-bottom: 20px;
+.shadow {
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.4);
+}
 
+.about,
+.courses,
+.masters,
+.collaborators,
+.faqs {
+  padding: 20px;
+  background-image: url("src/assets/images/background.png");
+  margin-bottom: 30px;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.about {
   .left-box {
     width: 49%;
     margin-right: 20px;
@@ -29,17 +68,30 @@ p {
 }
 
 .courses {
-  margin-bottom: 20px;
-
   .course {
     width: 30%;
     margin-right: 20px;
     float: left;
+
+    h3 {
+      position: relative;
+      padding-left: 70px;
+      background-repeat: no-repeat;
+      min-height: 70px;
+      vertical-align: middle;
+      line-height: 2.3em;
+
+
+      img {
+        position: absolute;
+        left: 0;
+      }
+    }
   }
 }
 
 .masters {
-  padding: 10px;
+  padding: 20px;
 
   .master,
   .calligrapher {
@@ -88,38 +140,66 @@ p {
     min-height: 100px;
   }
 }
-.calligrapher {
-  position: relative;
-  min-height: 100px;
-  margin-right: 20px;
-  margin-bottom: 10px;
 
-  .name {
-    font-weight: bold;
-  }
+.collaborators {
+  .calligrapher,
+  .designer {
+    float: left;
+    width: 45%;
+    position: relative;
+    min-height: 100px;
+    margin-right: 20px;
+    margin-bottom: 10px;
 
-  .icon {
-    position: absolute;
-  }
+    .role{
+      font-weight: bold;
+      font-size: 150%;
+    }
 
-  ul {
-    list-style: none;
-    margin: 0;
+    .name {
+      font-weight: bold;
+    }
 
-    li {
-      float: left;
+    .icon {
+      position: absolute;
+    }
 
-      .link {
-        i {
-          font-size: 120%;
+    ul {
+      list-style: none;
+      margin: 0;
+
+      li {
+        float: left;
+
+        .link {
+          i {
+            font-size: 120%;
+          }
         }
       }
     }
+
+    ul,
+    .name {
+      padding-left: 90px;
+    }
+  }
+}
+
+.calligrapher {
+  float: left;
+}
+
+.faqs {
+  .question {
+    font-weight: bold;
+    font-size: 150%;
+    margin-bottom: 10px;
   }
 
-  ul,
-  .name {
-    padding-left: 90px;
+  .answer {
+    font-size: 110%;
+    margin-bottom: 15px;
   }
 }
 
