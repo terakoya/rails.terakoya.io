@@ -45,8 +45,15 @@
               高専学生 卒業生 教職員
             %h4
               会場
-            %p
-              未定(東京近郊)
+            #venue
+              %a(href="http://www.optim.co.jp/")
+                %strong 株式会社オプティム
+              %a(href="http://www.optim.co.jp/access") (アクセス)
+              %br
+              %span.address 東京都港区港南1丁目6−34 品川イースト1階 (受付)
+              %br
+              %span 最寄り駅: JR品川駅
+            #map
           .right-box.clearfix
             %h4
               参加登録
@@ -268,6 +275,6 @@
         %span
   %script(src="src/assets/jquery-1.8.3.min.js")
   %script(src="src/assets/bootstrap/js/bootstrap.min.js")
-  -# %script(src="https://maps.google.com/maps/api/js?sensor=true")
-  -# %script(src="src/assets/gmaps.js")
-  -# %script(src="src/assets/app.js")
+  %script(src="https://maps.google.com/maps/api/js?sensor=true")
+  %script(src="src/assets/gmaps.js")
+  %script(src="src/assets/app.js")
