@@ -149,5 +149,8 @@ p {
   font-size: 110%;
   margin-bottom: 15px; }
 
+#venue {
+  padding-bottom: 10px; }
+
 #map {
   height: 300px; }

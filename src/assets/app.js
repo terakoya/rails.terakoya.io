@@ -1,5 +1,11 @@
-new GMaps({
+map = new GMaps({
     div: '#map',
-    lat: -12.043333,
-    lng: -77.028333
+    lat: 35.630424,
+    lng: 139.745517
+});
+
+map.addMarker({
+    lat: 35.630424,
+    lng: 139.745517,
+    title: '株式会社オプティム'
 });
