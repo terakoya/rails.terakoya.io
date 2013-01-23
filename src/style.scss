@@ -43,7 +43,7 @@ p {
 .masters,
 .collaborators,
 .faqs {
-  padding: 20px;
+  padding: 20px 0 20px 20px;
   background-image: url("src/assets/images/background.png");
   margin-bottom: 30px;
 
@@ -69,7 +69,7 @@ p {
 
 .courses {
   .course {
-    width: 30%;
+    width: 31%;
     margin-right: 20px;
     float: left;
 
@@ -91,14 +91,12 @@ p {
 }
 
 .masters {
-  padding: 20px;
-
   .master,
   .calligrapher {
     position: relative;
-    width: 46%;
+    width: 47%;
     min-height: 170px;
-    margin-right: 20px;
+    margin-right: 25px;
     margin-bottom: 10px;
     float: left;
 
@@ -145,7 +143,7 @@ p {
   .calligrapher,
   .designer {
     float: left;
-    width: 45%;
+    width: 47%;
     position: relative;
     min-height: 100px;
     margin-right: 20px;

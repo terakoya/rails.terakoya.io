@@ -35,7 +35,7 @@ p {
 .masters,
 .collaborators,
 .faqs {
-  padding: 20px;
+  padding: 20px 0 20px 20px;
   background-image: url("src/assets/images/background.png");
   margin-bottom: 30px;
   -webkit-border-radius: 10px;
@@ -51,7 +51,7 @@ p {
   max-width: none; }
 
 .courses .course {
-  width: 30%;
+  width: 31%;
   margin-right: 20px;
   float: left; }
   .courses .course h3 {
@@ -65,49 +65,47 @@ p {
       position: absolute;
       left: 0; }
 
-.masters {
-  padding: 20px; }
-  .masters .master,
-  .masters .calligrapher {
-    position: relative;
-    width: 46%;
-    min-height: 170px;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    float: left; }
-    .masters .master .name,
-    .masters .calligrapher .name {
-      font-weight: bold; }
-    .masters .master .icon,
-    .masters .calligrapher .icon {
-      position: absolute; }
-    .masters .master ul,
-    .masters .calligrapher ul {
-      list-style: none;
-      margin: 0; }
-      .masters .master ul li,
-      .masters .calligrapher ul li {
-        float: left; }
-        .masters .master ul li .link i,
-        .masters .calligrapher ul li .link i {
-          font-size: 120%; }
-    .masters .master .description,
-    .masters .calligrapher .description {
-      font-size: 80%; }
-    .masters .master ul,
-    .masters .master .name,
-    .masters .master .description,
-    .masters .calligrapher ul,
-    .masters .calligrapher .name,
-    .masters .calligrapher .description {
-      padding-left: 90px; }
-  .masters .last {
-    min-height: 100px; }
+.masters .master,
+.masters .calligrapher {
+  position: relative;
+  width: 47%;
+  min-height: 170px;
+  margin-right: 25px;
+  margin-bottom: 10px;
+  float: left; }
+  .masters .master .name,
+  .masters .calligrapher .name {
+    font-weight: bold; }
+  .masters .master .icon,
+  .masters .calligrapher .icon {
+    position: absolute; }
+  .masters .master ul,
+  .masters .calligrapher ul {
+    list-style: none;
+    margin: 0; }
+    .masters .master ul li,
+    .masters .calligrapher ul li {
+      float: left; }
+      .masters .master ul li .link i,
+      .masters .calligrapher ul li .link i {
+        font-size: 120%; }
+  .masters .master .description,
+  .masters .calligrapher .description {
+    font-size: 80%; }
+  .masters .master ul,
+  .masters .master .name,
+  .masters .master .description,
+  .masters .calligrapher ul,
+  .masters .calligrapher .name,
+  .masters .calligrapher .description {
+    padding-left: 90px; }
+.masters .last {
+  min-height: 100px; }
 
 .collaborators .calligrapher,
 .collaborators .designer {
   float: left;
-  width: 45%;
+  width: 47%;
   position: relative;
   min-height: 100px;
   margin-right: 20px;
