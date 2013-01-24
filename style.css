@@ -42,13 +42,15 @@ p {
   -moz-border-radius: 10px;
   border-radius: 10px; }
 
-.about .left-box {
-  width: 49%;
-  margin-right: 20px;
-  float: left; }
-.about .time-table .table {
-  width: 45%;
-  max-width: none; }
+.about {
+  padding: 20px; }
+  .about .left-box {
+    width: 49%;
+    margin-right: 20px;
+    float: left; }
+  .about .time-table .table {
+    width: 45%;
+    max-width: none; }
 
 .courses .course {
   width: 31%;
