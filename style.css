@@ -6,17 +6,17 @@ body.container {
 
 header {
   margin-bottom: 20px;
-  background-image: url("src/assets/images/header.png");
+  background-image: url("/src/assets/images/header.png");
   height: 300px;
   box-shadow: 0px 5px 15px 0px rgba(100, 100, 100, 0.4); }
 
 footer {
-  background-image: url("src/assets/images/footer.png");
+  background-image: url("/src/assets/images/footer.png");
   background-repeat: no-repeat;
   height: 470px; }
 
 h2 {
-  background-image: url("src/assets/images/headline.png");
+  background-image: url("/src/assets/images/headline.png");
   background-repeat: no-repeat;
   color: #333;
   padding: 3px 5px; }
@@ -39,7 +39,7 @@ tr:nth-child(odd) td {
 .collaborators,
 .faqs {
   padding: 20px 0 20px 20px;
-  background-image: url("src/assets/images/background.png");
+  background-image: url("/src/assets/images/background.png");
   margin-bottom: 30px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;

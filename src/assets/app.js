@@ -1,11 +1,11 @@
 map = new GMaps({
     div: '#map',
-    lat: 35.630424,
-    lng: 139.745517
+    lat: 35.68137,
+    lng: 139.704355
 });
 
 map.addMarker({
-    lat: 35.630424,
-    lng: 139.745517,
-    title: '株式会社オプティム'
+    lat: 35.68137,
+    lng: 139.704355,
+    title: 'pixiv株式会社'
 });
