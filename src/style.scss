@@ -19,6 +19,27 @@ footer {
   height: 470px;
 }
 
+@mixin btn-colored-with($color) {
+  $to: $color;
+  $from: lighten($color, 15%);
+
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+
+  background-color: $from;
+  background-image: -o-linear-gradient(top, $from, $to);
+  background-image: -ms-linear-gradient(top, $from, $to);
+  background-image: -moz-linear-gradient(top, $from, $to);
+  background-image: -webkit-linear-gradient(top, $from, $to);
+  background-image: linear-gradient(top, $from, $to);
+  background-repeat: repeat-x;
+
+  &:hover {
+    color: #fff;
+    background-color: $to;
+  }
+}
+
 h2 {
   background-image: url("/src/assets/images/headline.png");
   background-repeat: no-repeat;
@@ -72,6 +93,13 @@ tr:nth-child(odd) td {
       max-width: none;
     }
   }
+  .submit-btn {
+    width: 240px;
+    height: 45px;
+    font-size: 20px;
+    @include btn-colored-with(#92b77e);
+  }
+
 }
 
 .courses {

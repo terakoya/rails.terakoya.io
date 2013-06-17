@@ -55,6 +55,22 @@ tr:nth-child(odd) td {
   .about .time-table .table {
     width: 45%;
     max-width: none; }
+  .about .submit-btn {
+    width: 240px;
+    height: 45px;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #bbd2af;
+    background-image: -o-linear-gradient(top, #bbd2af, #92b77e);
+    background-image: -ms-linear-gradient(top, #bbd2af, #92b77e);
+    background-image: -moz-linear-gradient(top, #bbd2af, #92b77e);
+    background-image: -webkit-linear-gradient(top, #bbd2af, #92b77e);
+    background-image: linear-gradient(top, #bbd2af, #92b77e);
+    background-repeat: repeat-x; }
+    .about .submit-btn:hover {
+      color: #fff;
+      background-color: #92b77e; }
 
 .courses .course {
   width: 31%;
