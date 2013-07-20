@@ -1,40 +1,35 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <!-- Use title if it's in the page YAML frontmatter -->
-        <title><%= current_page.data.title || "HTML5 Boilerplate" %></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
+!!!
+/[if lt IE 7] <html class="no-js lt-ie9 lt-ie8 lt-ie7">
+/[if IE 7] <html class="no-js lt-ie9 lt-ie8">
+/[if IE 8] <html class="no-js lt-ie9">
+/ [if gt IE 8]><!
+%html.no-js
+  / <![endif]
+  %head
+    %meta(charset="utf-8")
+    %meta(name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes")
+    %meta(property="og:type"        content="website" )
+    %meta(property="og:url"         content="http://rails.terakoya.io/" )
+    %meta(property="og:title"       content="Rails寺子屋" )
+    %meta(property="og:site_name"   content="Rails寺子屋"  )
+    %meta(property="og:description" content="Rails寺子屋はWebアプリを作るための強力なツール&quot;Ruby on Rails&quot;を使ってWebアプリ作りを実践しながら学ぶイベントです。"  )
+    %meta(property="og:image"       content="http://rails.terakoya.io/src/assets/images/ogp_logo.png"  )
+    %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}/
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    %title= "Rails寺子屋第2回"
+    %link(href="css/normalize.css" rel="stylesheet")
+    %link(href="css/main.css" rel="stylesheet")
+    %link(href="css/bootstrap.css" rel="stylesheet")
+    %link(href="css/font-awesome.css" rel="stylesheet")
+    %link(href="css/style.css" rel="stylesheet")
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.1.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-        <![endif]-->
-
-        <%= yield %>
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-    </body>
-</html>
+    %script{:src => "js/vendor/modernizr-2.6.1.min.js"}
+  %body
+    = yield
+    %script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"}
+    :javascript
+      window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')
+  %script(src="js/vendor/jquery-1.8.0.min.js")
+  %script(src="https://maps.google.com/maps/api/js?sensor=true")
+  %script(src="js/gmaps.js")
+  %script(src="js/app.js")

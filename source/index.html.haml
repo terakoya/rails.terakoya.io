@@ -1,6 +1,410 @@
----
-title: HTML5 Boilerplate Middleman
----
+%header
+  .container
+    %h1.logo
+    %img( src="images/logo.png" )
 
-<!-- Add your site or application content here -->
-<p>Hello world! This is HTML5 Boilerplate.</p>
+.container
+  .content
+    %h2
+      Rails寺子屋 x Kosenconfについて
+    .about.clearfix
+      %h3
+        趣意書
+      %p
+        Rails寺子屋はWebアプリを作るための強力なツール"Ruby on Rails"を使ってWebアプリ作りを実践しながら学ぶイベントです。日頃からRailsを使って開発している師範（コーチ）と、ほかの参加者のみなさんと、一緒にWebアプリ作りをはじめてみませんか。
+        %br
+        本イベントはRails寺子屋と
+        %a( href="http://kosenconf.jp/" )
+          高専カンファレンス
+        の合同イベントです。
+      %h3
+        第2回 開催情報
+      .left-box
+        %h4
+          日時
+        %strong
+          2013/8/3(土) 10:00 開始 (9:30分開場)
+        %h4
+          参加対象者
+        %p
+          高専学生 卒業生 教職員
+        %h4
+          会場
+        #venue
+          %address
+            %a(href="http://www.pixiv.co.jp/")
+              %strong ピクシブ株式会社
+            %a(href="http://www.pixiv.co.jp/company/") (アクセス)
+            %br
+            %a(href="http://goo.gl/maps/gn3xd") 大きな地図で見る
+            %br
+            %span.address 東京都渋谷区千駄ヶ谷4-23-5 JPR千駄ヶ谷ビル5F
+            %br
+            %span 最寄り駅: JR代々木駅, JR千駄ヶ谷駅, 東京メトロ北参道駅
+        #map
+      .right-box.clearfix
+        %h4
+          参加登録
+        %p
+          %a( href="https://docs.google.com/spreadsheet/viewform?formkey=dFByeVRuU2swWllXbTV6RF9SQ3UwaVE6MA#gid=2" target="_blank" )
+            %button.btn.submit-btn
+              参加登録フォームへ
+        %h4
+          当日の持ち物
+        .equipment
+          %p
+            後日連絡します。
+        %h4
+          時間割
+        .time-table
+          後日連絡します。
+          /%table.table.table-striped
+          /  %tr
+          /    %td
+          /      9:30
+          /    %td
+          /      開場
+          /  %tr
+          /    %td
+          /      10:00 - 12:00
+          /    %td
+          /      環境構築
+          /  %tr
+          /    %td
+          /      12:00 - 13:00
+          /    %td
+          /      ランチ
+          /  %tr
+          /    %td
+          /      13:00 - 17:00
+          /    %td
+          /      ワークショップ
+          /  %tr
+          /    %td
+          /      17:00 - 19:00
+          /    %td
+          /      懇親会
+          /  %tr
+          /    %td
+          /      19:00
+          /    %td
+          /      解散
+
+    %h2
+      過去の開催
+    .archives
+      %ul
+        %li
+          %a(href="/archives/1.html")
+            Rails寺子屋 x kosenconf 第1回
+
+    %h2
+      師範(コーチ)
+    .masters.clearfix
+      .master
+        .icon
+          %img( src="https://si0.twimg.com/profile_images/2775085674/aacc6da0f43115bb2e60878e10a92377.jpeg" width="75" class="shadow" )
+        .name
+          五十嵐 邦明 @igaiga555
+        %ul.clearfix
+          %li
+            %a( href="http://twitter.com/igaiga555" class="link" )
+              %i.icon-twitter
+          %li
+            %a( href="http://facebook.com/kuniaki.igarashi" class="link" )
+              %i.icon-facebook
+          %li
+            %a( href="http://github.com/igaiga" class="link" )
+              %i.icon-github
+
+        .description
+          株式会社万葉のrailsエンジニア。群馬高専卒業。一橋大学非常勤講師(ruby, rails)。著書に「スタートアップruby」。tokyu.rb, asakusa.rb所属。高専カンファレンス014東京実行委員長。em高専カンファレンスvol.1編集長。
+
+      .master
+        .icon
+          %img( src="https://si0.twimg.com/profile_images/2492166253/pufry2sqh7y0zw1c3u1b.jpeg" width="75" class="shadow" )
+        .name
+          村田 賢太 @mrkn
+        %ul.clearfix
+          %li
+            %a( href="http://twitter.com/mrkn" class="link" )
+              %i.icon-twitter
+          %li
+            %a( href="http://facebook.com/mrkn720" class="link" )
+              %i.icon-facebook
+          %li
+            %a( href="http://github.com/mrkn" class="link" )
+              %i.icon-github
+        .description
+          苫小牧高専情報工学科および旭川高専専攻科生産システム工学専攻を卒業後、北海道大学大学院情報科学研究科にて複雑ネットワークと同期現象の研究に従事し、2009年に学位を取得。その後札幌市内の医療系ベンチャー企業に就職し、システムエンジニアとして日々を過ごす。2010年2月、CRuby のコミッタに就任。2011年12月、クックパッド株式会社へ転職。現在、クックパッドの開発基盤エンジニアとして、毎日の料理を楽しくし心からの笑顔を世界中に広げるために働いている。
+
+      .master
+        .icon
+          %img( src="https://si0.twimg.com/profile_images/2942332207/dd1501287df208056e6edb8b1514b84a.jpeg" width="75" class="shadow" )
+        .name
+          大和田 純 @june29
+        %ul.clearfix
+          %li
+            %a( href="http://twitter.com/june29" class="link" )
+              %i.icon-twitter
+          %li
+            %a( href="http://facebook.com/june29.jp" class="link" )
+              %i.icon-facebook
+          %li
+            %a( href="http://github.com/june29" class="link" )
+              %i.icon-github
+          %li
+            %a( href="http://june29.jp" class="link" )
+              %i.icon-home
+        .description
+          釧路高専情報工学科卒業。北海道生まれ少年漫画育ちのWebアプリケーション開発者。Ruby札幌に出会ってからは、日常の中で愛用する手になじむ道具としてRubyを選び続けている。「RubyKaigi」や「高専カンファレンス」の運営に関わったり、雑誌「WEB+DB PRESS」の連載をしたりと、源氏名「june29」で活動中。尊敬する人物は荒木飛呂彦先生。
+
+      .master
+        .icon
+          %img( src="https://si0.twimg.com/profile_images/1465459377/5494314_707716410.jpg" width="75" class="shadow" )
+        .name
+          西嶋 悠貴 @yuki24
+        %ul.clearfix
+          %li
+            %a( href="http://twitter.com/yuki24" class="link" )
+              %i.icon-twitter
+          %li
+            %a( href="http://facebook.com/yuki24" class="link" )
+              %i.icon-facebook
+          %li
+            %a( href="http://github.com/yuki24" class="link" )
+              %i.icon-github
+        .description
+          木更津高専情報工学科卒業。これまで、Ruby on Rails や Kaminari 等 Ruby で書かれたものをはじめ、多くのオープンソースプロジェクトへ貢献。高専時代は大の英語嫌いだったが、フィリピンに1年程滞在する過程で克服。
+
+      .master
+        .icon
+          %img( src="https://si0.twimg.com/profile_images/3082568461/b1467e012995dfc062ddae096e02de12.png" width="75" class="shadow" )
+        .name
+          佐々木 佳祐 @RooandQoo
+        %ul.clearfix
+          %li
+            %a( href="http://twitter.com/rooandqoo" class="link" )
+              %i.icon-twitter
+          %li
+            %a( href="http://facebook.com/rooandqoo" class="link" )
+              %i.icon-facebook
+          %li
+            %a( href="http://github.com/rooandqoo" class="link" )
+              %i.icon-github
+        .description
+          釧路高専 20期情報工学科卒業。電気通信大学の院に通いつつピクシブ株式会社にてアルバイトに勤しむ。普段はAndroidのアプリケーション開発をしていて、Ruby/Railsは目下勉強中。高専カンファレンスを始めとした楽しい催し物とクラブミュージックが好き。
+
+      .master
+        .icon
+          %img( src="https://si0.twimg.com/profile_images/328365018/3411179234_d31d01f498_b.jpg" width="75" class="shadow" )
+        .name
+          三浦 彩 @mitaku
+        %ul.clearfix
+          %li
+            %a( href="http://twitter.com/mitaku" class="link" )
+              %i.icon-twitter
+          %li
+            %a( href="http://facebook.com/takumi.miura.9" class="link" )
+              %i.icon-facebook
+          %li
+            %a( href="http://github.com/mitaku" class="link" )
+              %i.icon-github
+        .description
+          株式会社オプティムのRailsエバンジェリスト。高専カンファレンスなどの開催をしている。雨が嫌いで、怠け者。Rubyで素数を数えて落ち着く。
+
+      .master
+        .icon
+          %img( src="https://si0.twimg.com/profile_images/1489032359/__________2011-08-11_9.48.06.png" width="75" class="shadow" )
+        .name
+          藤原 裕也 @asonas
+        %ul.clearfix
+          %li
+            %a( href="http://twitter.com/asonas" class="link" )
+              %i.icon-twitter
+          %li
+            %a( href="http://facebook.com/asonas.P" class="link" )
+              %i.icon-facebook
+          %li
+            %a( href="http://github.com/asonas" class="link" )
+              %i.icon-github
+          %li
+            %a( href="http://asonas.jp" class="link" )
+              %i.icon-home
+        .description
+          津山工業高等専門学校 電気電子工学科を修了後、武蔵野美術大学の通信学部に通いデザインを学ぶ。2010年に京都で行われた高専カンファレンスに感化され、今はスタートアップ系Web男子として日々を邁進。高専カンファレンスやTech系勉強会などによく出現する。
+
+      .master
+        .icon
+          %img( src="https://twimg0-a.akamaihd.net/profile_images/3022880518/d4a92c61fdb0ee77fb6d29ed644581b7_bigger.png" width="75" class="shadow" )
+        .name
+          そらは @sora_h
+        %ul.clearfix
+          %li
+            %a( href="http://twitter.com/sora_h" class="link" )
+              %i.icon-twitter
+          %li
+            %a( href="http://github.com/sorah" class="link" )
+              %i.icon-github
+          %li
+            %a( href="http://sorah.jp" class="link" )
+              %i.icon-home
+        .description
+          クックパッドで開発基盤エンジニアをしている中卒 Rubyist, Ruby コミッタ。こわくないです。
+
+      .master
+        .icon
+          %img( src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/c170.50.621.621/s200x200/602757_389226921172381_1750948442_n.jpg" width="75" class="shadow" )
+        .name
+          本多 展幸 @nobyuki
+        %ul.clearfix
+          %li
+            %a( href="https://twitter.com/nobyuki" class="link" )
+              %i.icon-twitter
+          %li
+            %a( href="http://github.com/nobyuki" class="link" )
+              %i.icon-github
+          %li
+            %a( href="https://www.facebook.com/nobyuki.h" class="link" )
+              %i.icon-facebook
+        .description
+          株式会社ネットワーク応用通信研究所のRailsエンジニア。生粋の福岡県人だったが、Rubyで仕事がしたくて松江にIターン。趣味は釣りと料理と積読。ちなみに、高専卒ではない。
+
+      .master
+        .icon
+          %img( src="https://twimg0-a.akamaihd.net/profile_images/3064291628/70f869b4ea94a85744370d1f378ea1e8_bigger.png" width="75" class="shadow" )
+        .name
+          青山 昂平 @_a__san
+        %ul.clearfix
+          %li
+            %a( href="http://twitter.com/_a__san" class="link" )
+              %i.icon-twitter
+          %li
+            %a( href="https://www.facebook.com/aoyama.kohei" class="link" )
+              %i.icon-facebook
+          %li
+            %a( href="http://github.com/akoruka" class="link" )
+              %i.icon-github
+        .description
+          福井工業高等専門学校 電子情報工学科を飛び出してそのまま上京してきたプログラマーっぽい人
+          %br
+          自称ゆるふわガチ勢
+          %br
+          こわい人こわいです
+
+      .master
+        .icon
+          %img( src="https://twimg0-a.akamaihd.net/profile_images/1296753997/image.jpg" width="75" class="shadow" )
+        .name
+          成田 一生 @mirakui
+        %ul.clearfix
+          %li
+            %a( href="http://twitter.com/mirakui" class="link" )
+              %i.icon-twitter
+          %li
+            %a( href="https://www.facebook.com/mirakui" class="link" )
+              %i.icon-facebook
+          %li
+            %a( href="http://github.com/mirakui" class="link" )
+              %i.icon-github
+        .description
+          クックパッドで働くインフラエンジニア。主に Rails アプリケーションのパフォーマンス改善を担当。技術評論社 WEB+DB PRESS Vol.70に「Rails高速化特集」を書きました。出身高専は豊田高専情報工学科。好きな動物はパンダ。
+
+      .master
+        .icon
+          %img( src="https://si0.twimg.com/profile_images/1491871238/kengo05_bigger.png" width="75" class="shadow" )
+        .name
+          濱崎 健吾 @hmsk
+        %ul.clearfix
+          %li
+            %a( href="http://twitter.com/hmsk" class="link" )
+              %i.icon-twitter
+        .description
+          北九州高専制御情報工学科卒業。五十嵐さんが講師の講義のティーチングアシスタント。
+
+      .master
+        .icon
+          %img( src="https://si0.twimg.com/profile_images/3340818214/fe393816d22e03b76e576f41829b6195.png" width="75" class="shadow" )
+        .name
+          喜多 啓介 @kitak
+        %ul.clearfix
+          %li
+            %a( href="https://twitter.com/kitak" class="link" )
+              %i.icon-twitter
+          %li
+            %a( href="https://www.facebook.com/kei.kita2501" class="link" )
+              %i.icon-facebook
+          %li
+            %a( href="https://github.con/kitak" class="link" )
+              %i.icon-github
+        .description
+          石川高専電子情報工学科、同高専専攻科電子機械工学専攻を卒業。
+          今年の4月から、株式会社paperboy&co.の新卒氏。
+          技術基盤の軍曹たちによるブートキャンプに悲鳴を上げながら毎日を楽しく過ごしている。
+          ペパボ1,2を争う眼光の鋭いお兄さんだが、実際はのほほんとしている。
+
+      .master.last
+        .icon
+          %img( src="https://si0.twimg.com/profile_images/16229292/face.jpg" width="75" class="shadow" )
+        .name
+          松岡 浩平 @machu
+        %ul.clearfix
+          %li
+            %a( href="https://twitter.com/machu" class="link" )
+              %i.icon-twitter
+          %li
+            %a( href="https://github.con/machu" class="link" )
+              %i.icon-github
+          %li
+            %a( href="http://www.machu.jp/diary/" class="link" )
+              %i.icon-home
+        .description
+          tDiaryコミッタ。Rubyの簡潔さと奥深さに魅せられて早10年。ブログ「まちゅダイアリー」や雑誌「日経ソフトウエア」、「WEB+DBPRESS」にセキュリティや技術ネタを掲載。2児の父になり、昼は家族とプラレールのコース作成、深夜は1人でひっそりプログラミング。いつか子どもとペアプロするのが夢。久留米高専、制御情報工学科卒。
+
+    %h2
+      助っ人
+    .collaborators.clearfix
+      .calligrapher
+        %span.role
+          題字
+        .icon
+          %img( src="https://si0.twimg.com/profile_images/1720785107/my_bigger.png" width="75" class="shadow" )
+        .name
+          さいとうかずよし
+        %ul.clearfix
+          %li
+            %a( href="http://twitter.com/kazuyoshi" class="link" )
+              %i.icon-twitter
+      .designer
+        %span.role
+          絵師
+        .icon
+          %img( src="http://a0.twimg.com/profile_images/3049823344/b89478d5d99dbaee208000b505c5677c.png" width="75" class="shadow" )
+        .name
+          あらなぎ
+        %ul.clearfix
+          %li
+            %a( href="http://twitter.com/aranagi" class="link" )
+              %i.icon-twitter
+
+    %h2
+      よくある質問
+    .faqs
+      .question
+        Q. 参加費はどのくらいかかりますか？
+      .answer
+        A. 無料です。申し込むときにはわくわくした気持ちだけあればいいです。
+      .question
+        Q. 当日までにやっておくと良いことはありますか？
+      .answer
+        A. 特にありません。当日、忘れ物をしないようにして下さい！
+      .question
+        Q. プログラミングの経験があります。手伝うことはできますか？
+      .answer
+        A. Rails寺子屋は師範になれる人を捜しています。いずれかの師範までご連絡ください。
+
+  %footer
+    %span
+%script
+  var lat = 35.680903;
+  var lng = 139.706761;
