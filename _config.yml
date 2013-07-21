@@ -1,5 +1,2 @@
-name: Rails寺子屋
+name: "Rails寺子屋"
 pygments: true
-sass:
-  syntax: scss
-  style: compressed
