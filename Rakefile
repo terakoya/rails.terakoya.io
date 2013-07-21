@@ -28,7 +28,6 @@ end
 
 def build
   sh 'bundle exec middleman build'
-  sh 'cp CNAME build/'
 end
 
 def clean
