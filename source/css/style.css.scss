@@ -169,7 +169,7 @@ tr:nth-child(odd) td {
     }
   }
 
-  .last {
+  &:last-child {
     min-height: 100px;
   }
 }

@@ -1,0 +1,111 @@
+-
+  name: 五十嵐 邦明
+  image: https://si0.twimg.com/profile_images/2775085674/aacc6da0f43115bb2e60878e10a92377.jpeg
+  facebook: kuniaki.igarashi
+  twitter: igaiga555
+  github: igaiga
+  web:
+  description: 株式会社万葉のrailsエンジニア。群馬高専卒業。一橋大学非常勤講師(ruby, rails)。著書に「スタートアップruby」。tokyu.rb, asakusa.rb所属。高専カンファレンス014東京実行委員長。em高専カンファレンスvol.1編集長。
+-
+  name: 村田 賢太
+  image: https://si0.twimg.com/profile_images/2492166253/pufry2sqh7y0zw1c3u1b.jpeg
+  facebook: mrkn720
+  twitter: mrkn
+  github: mrkn
+  web:
+  description: 苫小牧高専情報工学科および旭川高専専攻科生産システム工学専攻を卒業後、北海道大学大学院情報科学研究科にて複雑ネットワークと同期現象の研究に従事し、2009年に学位を取得。その後札幌市内の医療系ベンチャー企業に就職し、システムエンジニアとして日々を過ごす。2010年2月、CRuby のコミッタに就任。2011年12月、クックパッド株式会社へ転職。現在、クックパッドの開発基盤エンジニアとして、毎日の料理を楽しくし心からの笑顔を世界中に広げるために働いている。
+-
+  name: 大和田 純
+  image: https://si0.twimg.com/profile_images/2942332207/dd1501287df208056e6edb8b1514b84a.jpeg
+  facebook: june29.jp
+  twitter: june29
+  github: june29
+  web: http://june29.jp
+  description: 釧路高専情報工学科卒業。北海道生まれ少年漫画育ちのWebアプリケーション開発者。Ruby札幌に出会ってからは、日常の中で愛用する手になじむ道具としてRubyを選び続けている。「RubyKaigi」や「高専カンファレンス」の運営に関わったり、雑誌「WEB+DB PRESS」の連載をしたりと、源氏名「june29」で活動中。尊敬する人物は荒木飛呂彦先生。
+-
+  name: 西嶋 悠貴
+  image: https://si0.twimg.com/profile_images/1465459377/5494314_707716410.jpg
+  facebook: yuki24
+  twitter: yuki24
+  github: yuki24
+  web:
+  description: 木更津高専情報工学科卒業。これまで、Ruby on Rails や Kaminari 等 Ruby で書かれたものをはじめ、多くのオープンソースプロジェクトへ貢献。高専時代は大の英語嫌いだったが、フィリピンに1年程滞在する過程で克服。
+-
+  name: 佐々木 佳祐
+  image: https://si0.twimg.com/profile_images/3082568461/b1467e012995dfc062ddae096e02de12.png
+  facebook: rooandqoo
+  twitter: rooandqoo
+  github: rooandqoo
+  web:
+  description: 釧路高専 20期情報工学科卒業。電気通信大学の院に通いつつピクシブ株式会社にてアルバイトに勤しむ。普段はAndroidのアプリケーション開発をしていて、Ruby/Railsは目下勉強中。高専カンファレンスを始めとした楽しい催し物とクラブミュージックが好き。
+-
+  name: 三浦 彩
+  image: https://si0.twimg.com/profile_images/328365018/3411179234_d31d01f498_b.jpg
+  facebook: takumi.miura.9
+  twitter: mitaku
+  github: mitaku
+  web:
+  description: 株式会社オプティムのRailsエバンジェリスト。高専カンファレンスなどの開催をしている。雨が嫌いで、怠け者。Rubyで素数を数えて落ち着く。
+-
+  name: 藤原 裕也
+  image: https://si0.twimg.com/profile_images/1489032359/__________2011-08-11_9.48.06.png
+  facebook: asonas.P
+  twitter: asonas
+  github: asonas
+  web:
+  description: 津山工業高等専門学校 電気電子工学科を修了後、武蔵野美術大学の通信学部に通いデザインを学ぶ。2010年に京都で行われた高専カンファレンスに感化され、今はスタートアップ系Web男子として日々を邁進。高専カンファレンスやTech系勉強会などによく出現する。
+-
+  name: そらは
+  image: https://twimg0-a.akamaihd.net/profile_images/3022880518/d4a92c61fdb0ee77fb6d29ed644581b7_bigger.png
+  facebook:
+  twitter: sora_h
+  github: sorah
+  web: http://sorah.jp
+  description: クックパッドで開発基盤エンジニアをしている中卒 Rubyist, Ruby コミッタ。こわくないです。
+-
+  name: 本多 展幸
+  image: https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/c170.50.621.621/s200x200/602757_389226921172381_1750948442_n.jpg
+  facebook: nobyuki.h
+  twitter: nobyuki
+  github: nobyuki
+  web:
+  description: 株式会社ネットワーク応用通信研究所のRailsエンジニア。生粋の福岡県人だったが、Rubyで仕事がしたくて松江にIターン。趣味は釣りと料理と積読。ちなみに、高専卒ではない。
+-
+  name: 青山 昂平
+  image: https://twimg0-a.akamaihd.net/profile_images/3064291628/70f869b4ea94a85744370d1f378ea1e8_bigger.png
+  facebook: aoyama.kohei
+  twitter: _a__san
+  github: akoruka
+  web:
+  description: 福井工業高等専門学校 電子情報工学科を飛び出してそのまま上京してきたプログラマーっぽい人 自称ゆるふわガチ勢 こわい人こわいです
+-
+  name: 成田 一生
+  image: https://twimg0-a.akamaihd.net/profile_images/1296753997/image.jpg
+  facebook: mirakui
+  twitter: mirakui
+  github: mirakui
+  web:
+  description: クックパッドで働くインフラエンジニア。主に Rails アプリケーションのパフォーマンス改善を担当。技術評論社 WEB+DB PRESS Vol.70に「Rails高速化特集」を書きました。出身高専は豊田高専情報工学科。好きな動物はパンダ。
+-
+  name: 濱崎 健吾
+  image: https://si0.twimg.com/profile_images/1491871238/kengo05_bigger.png
+  facebook:
+  twitter: hmsk
+  github:
+  web:
+  description: 北九州高専制御情報工学科卒業。五十嵐さんが講師の講義のティーチングアシスタント。
+-
+  name: 喜多 啓介
+  image: https://si0.twimg.com/profile_images/3340818214/fe393816d22e03b76e576f41829b6195.png
+  facebook: kei.kita2501
+  twitter: kitak
+  github: kitak
+  web:
+  description: 石川高専電子情報工学科、同高専専攻科電子機械工学専攻を卒業。今年の4月から、 株式会社paperboy&co.の新卒氏。 技術基盤の軍曹たちによるブートキャンプに悲鳴を上げながら毎日を楽しく過ごしている。 ペパボ1,2を争う眼光の鋭いお兄さんだが、実際はのほほんとしている。
+-
+  name: 松岡 浩平
+  image: https://si0.twimg.com/profile_images/16229292/face.jpg
+  twitter: machu
+  github: machu
+  web: http://www.machu.jp/diary/
+  description: tDiaryコミッタ。Rubyの簡潔さと奥深さに魅せられて早10年。ブログ「まちゅダイアリー」や雑誌「日経ソフトウエア」、「WEB+DBPRESS」にセキュリティや技術ネタを掲載。2児の父になり、昼は家族とプラレールのコース作成、深夜は1人でひっそりプログラミング。いつか子どもとペアプロするのが夢。久留米高専、制御情報工学科卒。
