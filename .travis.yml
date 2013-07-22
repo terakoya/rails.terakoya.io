@@ -8,7 +8,7 @@ after_success:
 
 env:
   global:
-    - secure: "LIGAV/YyUGL3oMu+n30w58Utjs4uwXFv1Eh0RFuesLsaQDtuzkW++9ok5hX0BwIZONtZAItCdQkFl0kvRHA35ioIrL4Q3DheG/zQWIOUoAD2lyW4nFX+AdtrxTzho/YWKJd//751FQmPpgaQA/oMkuYHCDv3aPOhTFHMT4yhKgo="
+    - secure: "DTzB0Gja6ax/12QD2USYdCKcZE4d7Q9N/aXYrmDvGa3gFhkIFH+UYbLMNEPKb+Iy+PWotoS2o1OZ8TEPb/XlWXjci9ny7RRuOA84JF6G4pJUwWjs3MVJ8pFy6mM1283IjmLFt3YkdZt8R4us2AOB3lnK25h4uAXttrypvTkIxto="
     - GIT_COMMITTER_NAME=travis
     - GIT_COMMITTER_EMAIL=travis@example.com
     - GIT_AUTHOR_NAME=travis
