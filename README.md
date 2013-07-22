@@ -10,19 +10,13 @@ $ cd rails.terakoya.io
 $ bundle install
 ```
 
-### only once
-
-``` sh
-$ rake setup
-```
-
 ## Boot
 
 ``` sh
 $ bundle exec middleman server
 ```
 
-## Build and publish
+## Manual build and publish
 
 ``` sh
 $ rake build # bundle exec middleman build
