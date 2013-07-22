@@ -1,7 +1,7 @@
 MASTER_REPOSITORY = if ENV['GH_TOKEN']
-    "https://#{ENV['GH_TOKEN']}@github.com/terakoya/rails.git"
+    "https://#{ENV['GH_TOKEN']}@github.com/terakoya/rails.terakoya.io.git"
   else
-    'git@github.com:terakoya/rails.git'
+    'git@github.com:terakoya/rails.terakoya.io.git'
   end
 PUBLISH_BRANCH = 'gh-pages'
 DEST_DIR = 'build'
