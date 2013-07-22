@@ -1,4 +1,5 @@
 # Rails寺子屋
+[![Build Status](https://travis-ci.org/terakoya/rails.terakoya.io.png?branch=master)](https://travis-ci.org/terakoya/rails.terakoya.io)
 
 [rails.terakoya.io](http://rails.terakoya.io)
 
