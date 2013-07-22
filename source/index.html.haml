@@ -1,6 +1,3 @@
-:ruby
-  masters = YAML.load(open(File.expand_path("source/data/masters/2.yml")))
-
 %header
   .container
     %h1.logo
@@ -103,7 +100,7 @@
     %h2
       師範(コーチ)
     .masters.clearfix
-      - masters.each do |master|
+      - data.masters['2'].each do |master|
         .master
           .icon
             %img( src="#{master['image']}" width="75" class="shadow" )
