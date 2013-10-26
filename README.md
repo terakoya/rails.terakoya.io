@@ -20,6 +20,7 @@ $ bundle exec middleman server
 ## Manual build and publish
 
 ``` sh
-$ rake build # bundle exec middleman build
-$ rake publish # git commit && git push origin gh-pages
+$ git pull --rebase origin master
+$ bundle exec middleman build
+$ bubdle exec middleman deploy
 ```
