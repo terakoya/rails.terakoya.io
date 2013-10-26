@@ -23,7 +23,7 @@
         %h4
           日時
         %strong
-          2013/8/3(土) 10:00 開始 (9:30分開場)
+          2014年1月18日(土) 10:00 開始 (9:30分開場)
         %h4
           参加対象者
         %p
@@ -32,64 +32,30 @@
           会場
         #venue
           %address
-            %a(href="http://www.pixiv.co.jp/")
-              %strong ピクシブ株式会社
-            %a(href="http://www.pixiv.co.jp/company/") (アクセス)
+            %a(href="https://info.cookpad.com/")
+              %strong クックパッド株式会社
+            %a(href="https://info.cookpad.com/location/") (アクセス)
             %br
-            %a(href="http://goo.gl/maps/gn3xd") 大きな地図で見る
+            %a(href="https://www.google.com/maps?q=35.639725,139.72213&t=m&z=16") 大きな地図で見る
             %br
-            %span.address 東京都渋谷区千駄ヶ谷4-23-5 JPR千駄ヶ谷ビル5F
+            %span.address 東京都港区白金台5-12-7　MG白金台ビル5・6・7F
             %br
-            %span 最寄り駅: JR代々木駅, JR千駄ヶ谷駅, 東京メトロ北参道駅
+            %span 最寄り駅: 南北線・都営三田線　白金台駅より徒歩約6分 JR目黒駅より徒歩約14分
         #map
       .right-box.clearfix
         %h4
           参加登録
         %p
-          参加登録を締めきりました。
-          %br
-          たくさんの応募ありがとうございました!
-          %br
-          応募してくださった方には担当からメールにて連絡させていただいておりますのでご確認ください。
+          後日、連絡いたします。
         %h4
           当日の持ち物
         .equipment
           %p
-            お弁当とPCを持参してください。
+            後日、連絡いたします。
         %h4
           時間割
         .time-table
-          %table.table.table-striped
-            %tr
-              %td
-                9:30
-              %td
-                開場
-            %tr
-              %td
-                10:00 - 12:00
-              %td
-                環境構築 & ワークショップ
-            %tr
-              %td
-                12:00 - 13:00
-              %td
-                ランチ
-            %tr
-              %td
-                13:00 - 17:00
-              %td
-                ワークショップ
-            %tr
-              %td
-                17:00 - 19:00
-              %td
-                懇親会
-            %tr
-              %td
-                19:00
-              %td
-                解散
+          後日、連絡いたします。
 
     %h2
       過去の開催
@@ -98,11 +64,14 @@
         %li
           %a(href="/archives/1")
             Rails寺子屋 x kosenconf 第1回
+        %li
+          %a(href="/archives/2")
+            Rails寺子屋 x kosenconf 第2回
 
     %h2
       師範(コーチ)
     .masters.clearfix
-      - data.masters['2'].each do |master|
+      - data.masters['3'].each do |master|
         .master
           .icon
             %img( src="#{master['image']}" width="75" class="shadow" )
@@ -174,5 +143,5 @@
   %footer
     %span
 %script
-  var lat = 35.680903;
-  var lng = 139.706761;
+  var lat = 35.639725;
+  var lng = 139.72213;

@@ -1,0 +1,100 @@
+-
+  name: 五十嵐 邦明
+  image: https://si0.twimg.com/profile_images/2775085674/aacc6da0f43115bb2e60878e10a92377.jpeg
+  facebook: kuniaki.igarashi
+  twitter: igaiga555
+  github: igaiga
+  web:
+  description: 株式会社万葉のrailsエンジニア。群馬高専卒業。一橋大学非常勤講師(ruby, rails)。著書に「スタートアップruby」。tokyu.rb, asakusa.rb所属。高専カンファレンス014東京実行委員長。em高専カンファレンスvol.1編集長。
+-
+  name: 村田 賢太
+  image: https://si0.twimg.com/profile_images/2492166253/pufry2sqh7y0zw1c3u1b.jpeg
+  facebook: mrkn720
+  twitter: mrkn
+  github: mrkn
+  web:
+  description: |-
+    クックパッド株式会社の開発基盤エンジニア。苫小牧高専と旭川高専専攻科を卒業。
+    2009年に北大で博士号を取得し札幌で就職。CRuby のコミッタとして bigdecimal のメンテナンスを担当。
+    2年後に転職し現職へ。クックパッドでは開発基盤エンジニアとして社内のサービス開発エンジニアを幸せにすることで、
+    世界中の料理を楽しくすることに間接的に貢献している。
+
+-
+  name: 大和田 純
+  image: https://si0.twimg.com/profile_images/2942332207/dd1501287df208056e6edb8b1514b84a.jpeg
+  facebook: june29.jp
+  twitter: june29
+  github: june29
+  web: http://june29.jp
+  description: 釧路高専情報工学科卒業。北海道生まれ少年漫画育ちのWebアプリケーション開発者。Ruby札幌に出会ってからは、日常の中で愛用する手になじむ道具としてRubyを選び続けている。「RubyKaigi」や「高専カンファレンス」の運営に関わったり、雑誌「WEB+DB PRESS」の連載をしたりと、源氏名「june29」で活動中。尊敬する人物は荒木飛呂彦先生。
+-
+  name: 西嶋 悠貴
+  image: https://si0.twimg.com/profile_images/1465459377/5494314_707716410.jpg
+  facebook: yuki24
+  twitter: yuki24
+  github: yuki24
+  web:
+  description: 木更津高専情報工学科卒業。これまで、Ruby on Rails や Kaminari 等 Ruby で書かれたものをはじめ、多くのオープンソースプロジェクトへ貢献。高専時代は大の英語嫌いだったが、フィリピンに1年程滞在する過程で克服。
+-
+  name: 佐々木 佳祐
+  image: https://si0.twimg.com/profile_images/3082568461/b1467e012995dfc062ddae096e02de12.png
+  facebook: rooandqoo
+  twitter: RooandQoo
+  github: rooandqoo
+  web:
+  description: 釧路高専 20期情報工学科卒業。電気通信大学の院に通いつつピクシブ株式会社にてアルバイトに勤しむ。普段はAndroidのアプリケーション開発をしていて、Ruby/Railsは目下勉強中。高専カンファレンスを始めとした楽しい催し物とクラブミュージックが好き。
+-
+  name: 三浦 彩
+  image: https://si0.twimg.com/profile_images/328365018/3411179234_d31d01f498_b.jpg
+  facebook: takumi.miura.9
+  twitter: mitaku
+  github: mitaku
+  web:
+  description: 秋田高専卒業。ソーシャル系Railsエンジニア。高専カンファレンスなどの開催をしている。雨が嫌いで、怠け者。Rubyで素数を数えて落ち着く。
+-
+  name: 藤原 裕也
+  image: https://si0.twimg.com/profile_images/1489032359/__________2011-08-11_9.48.06.png
+  facebook: asonas.P
+  twitter: asonas
+  github: asonas
+  web:
+  description: 津山工業高等専門学校 電気電子工学科を修了後、武蔵野美術大学の通信学部に通いデザインを学ぶ。2010年に京都で行われた高専カンファレンスに感化され、今はスタートアップ系Web男子として日々を邁進。高専カンファレンスやTech系勉強会などによく出現する。
+-
+  name: そらは
+  image: https://twimg0-a.akamaihd.net/profile_images/3022880518/d4a92c61fdb0ee77fb6d29ed644581b7_bigger.png
+  facebook:
+  twitter: sora_h
+  github: sorah
+  web: http://sorah.jp
+  description: クックパッドで開発基盤エンジニアをしている中卒 Rubyist, Ruby コミッタ。こわくないです。
+-
+  name: 青山 昂平
+  image: https://twimg0-a.akamaihd.net/profile_images/3064291628/70f869b4ea94a85744370d1f378ea1e8_bigger.png
+  facebook: aoyama.kohei
+  twitter: _a__san
+  github: a3geek
+  web:
+  description: 福井高専電子情報工学科を4年時に中退、新卒としてチームラボ株式会社に入社。普段はインタラクティブチームにてサイネージなどの開発に取り組んでおり、Ruby/Railsは趣味で勉強、開発に使用している。ゆるふわガチ勢を信条に、日々強さを求めて戦っている。
+-
+  name: 成田 一生
+  image: https://twimg0-a.akamaihd.net/profile_images/1296753997/image.jpg
+  facebook: mirakui
+  twitter: mirakui
+  github: mirakui
+  web:
+  description: クックパッドで働くインフラエンジニア。主に Rails アプリケーションのパフォーマンス改善を担当。技術評論社 WEB+DB PRESS Vol.70に「Rails高速化特集」を書きました。出身高専は豊田高専情報工学科。好きな動物はパンダ。
+-
+  name: 濱崎 健吾
+  image: https://si0.twimg.com/profile_images/1491871238/kengo05_bigger.png
+  facebook:
+  twitter: hmsk
+  github:
+  web:
+  description: 北九州高専制御情報工学科卒業。五十嵐さんが講師の講義のティーチングアシスタント。
+-
+  name: 松岡 浩平
+  image: https://si0.twimg.com/profile_images/16229292/face.jpg
+  twitter: machu
+  github: machu
+  web: http://www.machu.jp/diary/
+  description: tDiaryコミッタ。Rubyの簡潔さと奥深さに魅せられて早10年。ブログ「まちゅダイアリー」や雑誌「日経ソフトウエア」、「WEB+DBPRESS」にセキュリティや技術ネタを掲載。2児の父になり、昼は家族とプラレールのコース作成、深夜は1人でひっそりプログラミング。いつか子どもとペアプロするのが夢。久留米高専、制御情報工学科卒。
