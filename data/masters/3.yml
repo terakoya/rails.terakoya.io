@@ -65,8 +65,10 @@
   facebook:
   twitter: sora_h
   github: sorah
-  web: http://sorah.jp
-  description: クックパッドで開発基盤エンジニアをしている中卒 Rubyist, Ruby コミッタ。こわくないです。
+  web: http://sorah.jp/
+  description:  |-
+    Rubyist, Ruby コミッタ。クックパッド技術部で開発基盤エンジニアをしています。
+    おそらく講師陣の中で唯一高専との接点が薄いと思われます。
 -
   name: 青山 昂平
   image: https://twimg0-a.akamaihd.net/profile_images/3064291628/70f869b4ea94a85744370d1f378ea1e8_bigger.png
