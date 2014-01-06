@@ -18,23 +18,6 @@
     2009年に北大で博士号を取得し札幌で就職。CRuby のコミッタとして bigdecimal のメンテナンスを担当。
     2年後に転職し現職へ。クックパッドでは開発基盤エンジニアとして社内のサービス開発エンジニアを幸せにすることで、
     世界中の料理を楽しくすることに間接的に貢献している。
-
--
-  name: 大和田 純
-  image: https://si0.twimg.com/profile_images/2942332207/dd1501287df208056e6edb8b1514b84a.jpeg
-  facebook: june29.jp
-  twitter: june29
-  github: june29
-  web: http://june29.jp
-  description: 釧路高専情報工学科卒業。北海道生まれ少年漫画育ちのWebアプリケーション開発者。Ruby札幌に出会ってからは、日常の中で愛用する手になじむ道具としてRubyを選び続けている。「RubyKaigi」や「高専カンファレンス」の運営に関わったり、雑誌「WEB+DB PRESS」の連載をしたりと、源氏名「june29」で活動中。尊敬する人物は荒木飛呂彦先生。
--
-  name: 西嶋 悠貴
-  image: https://si0.twimg.com/profile_images/1465459377/5494314_707716410.jpg
-  facebook: yuki24
-  twitter: yuki24
-  github: yuki24
-  web:
-  description: 木更津高専情報工学科卒業。これまで、Ruby on Rails や Kaminari 等 Ruby で書かれたものをはじめ、多くのオープンソースプロジェクトへ貢献。高専時代は大の英語嫌いだったが、フィリピンに1年程滞在する過程で克服。
 -
   name: 佐々木 佳祐
   image: https://si0.twimg.com/profile_images/3082568461/b1467e012995dfc062ddae096e02de12.png
@@ -85,14 +68,6 @@
   github: mirakui
   web:
   description: クックパッドで働くインフラエンジニア。主に Rails アプリケーションのパフォーマンス改善を担当。技術評論社 WEB+DB PRESS Vol.70に「Rails高速化特集」を書きました。出身高専は豊田高専情報工学科。好きな動物はパンダ。
--
-  name: 濱崎 健吾
-  image: https://si0.twimg.com/profile_images/1491871238/kengo05_bigger.png
-  facebook:
-  twitter: hmsk
-  github:
-  web:
-  description: 北九州高専制御情報工学科卒業。五十嵐さんが講師の講義のティーチングアシスタント。
 -
   name: 松岡 浩平
   image: https://si0.twimg.com/profile_images/16229292/face.jpg
