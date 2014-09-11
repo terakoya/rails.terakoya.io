@@ -7,5 +7,5 @@ map = new GMaps({
 map.addMarker({
   lat: window.lat,
   lng: window.lng,
-  title: 'pixiv株式会社'
+  title: 'チームラボ株式会社'
 });

@@ -18,12 +18,12 @@
           高専カンファレンス
         の合同イベントです。
       %h3
-        第4回 開催情報
+        第5回 開催情報
       .left-box
         %h4
           日時
         %strong
-          2014年5月24日(土) 10:00 開始 (9:30分開場)
+          2014年10月25日(土) 10:00 開始 (9:30分開場)
         %h4
           参加対象者
         %p
@@ -33,20 +33,20 @@
         #venue
           %address
             %a(href="http://www.drecom.co.jp/")
-              %strong 株式会社ドリコム
-            %a(href="http://www.drecom.co.jp/company/accessmap/") (アクセス)
+              %strong チームラボ株式会社
+            %a(href="http://www.team-lab.com/about#access") (アクセス)
             %br
-            %a(href="https://www.google.com/maps?q=35.631662,139.713409&t=m&z=16") 大きな地図で見る
+            %a(href="https://www.google.com/maps?q=35.704454,139.756738&t=m&z=16") 大きな地図で見る
             %br
-            %span.address 東京都目黒区下目黒1丁目8-1　アルコタワー17F
+            %span.address 東京都文京区本郷1-11-6 東接本郷ビル5Ｆ
             %br
-            %span 最寄り駅: 目黒駅
+            %span 最寄り駅: 水道橋駅
         #map
       .right-box.clearfix
         %h4
           参加登録
         %p
-          %a(href="http://rails-terakoya.doorkeeper.jp/events/10338" target="_blank")
+          %a(href="http://rails-terakoya.doorkeeper.jp/events/15096" target="_blank")
             %button.btn.submit-btn 参加登録フォームへ
         %h4
           当日の持ち物
@@ -101,11 +101,14 @@
         %li
           %a(href="/archives/3")
             Rails寺子屋 x kosenconf 第3回
+        %li
+          %a(href="/archives/4")
+            Rails寺子屋 x kosenconf 第4回
 
     %h2
       師範(コーチ)
     .masters.clearfix
-      - data.masters['4'].each do |master|
+      - data.masters['5'].each do |master|
         .master
           .icon
             %img( src="#{master['image']}" width="75" class="shadow" )
@@ -163,7 +166,6 @@
     .sponsors.clearfix
       .sponsor
         = image_tag "spicelife.png", width: "250px"
-        = image_tag "drecom.jpg", width: "270px"
 
     %h2
       よくある質問
@@ -184,5 +186,5 @@
   %footer
     %span
 %script
-  var lat = 35.631662;
-  var lng = 139.713409;
+  var lat = 35.704454;
+  var lng = 139.756738;

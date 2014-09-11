@@ -1,0 +1,119 @@
+-
+  name: 五十嵐 邦明
+  image: http://pbs.twimg.com/profile_images/378800000065478361/f0584a649326ef2e5f81bd0b96903525.png
+  facebook: kuniaki.igarashi
+  twitter: igaiga555
+  github: igaiga
+  web: http://igarashikuniaki.net/diary/
+  description: 株式会社 spice life のrailsエンジニア。群馬高専卒業。一橋大学非常勤講師(ruby, rails)。著書に「スタートアップruby」。Tokyu.rb, Asakusa.rb, Kuniaki.rb所属。高専カンファレンス014東京実行委員長。em高専カンファレンスvol.1編集長。
+-
+  name: 村田 賢太
+  image: http://pbs.twimg.com/profile_images/3409680465/b25a28396d884723e1f3c6e9821789f1.jpeg
+  facebook: mrkn720
+  twitter: mrkn
+  github: mrkn
+  web:
+  description: |-
+    クックパッド株式会社の開発基盤エンジニア。苫小牧高専と旭川高専専攻科を卒業。
+    2009年に北大で博士号を取得し札幌で就職。CRuby のコミッタとして bigdecimal のメンテナンスを担当。
+    2年後に転職し現職へ。クックパッドでは開発基盤エンジニアとして社内のサービス開発エンジニアを幸せにすることで、
+    世界中の料理を楽しくすることに間接的に貢献している。
+-
+  name: 佐々木 佳祐
+  image:  http://pbs.twimg.com/profile_images/421144410147917824/IuySxIWS.png
+  facebook: rooandqoo
+  twitter: RooandQoo
+  github: rooandqoo
+  web:
+  description: 釧路高専 20期情報工学科卒業。電気通信大学の院に通いつつピクシブ株式会社にてアルバイトに勤しむ。普段はAndroidのアプリケーション開発をしていて、Ruby/Railsは目下勉強中。高専カンファレンスを始めとした楽しい催し物とクラブミュージックが好き。
+-
+  name: 三浦 彩
+  image: http://pbs.twimg.com/profile_images/328365018/3411179234_d31d01f498_b.jpg
+  facebook: takumi.miura.9
+  twitter: mitaku
+  github: mitaku
+  web:
+  description: 秋田高専卒業。ソーシャル系Railsエンジニア。高専カンファレンスなどの開催をしている。雨が嫌いで、怠け者。Rubyで素数を数えて落ち着く。
+-
+  name: 藤原 裕也
+  image: http://pbs.twimg.com/profile_images/1489032359/__________2011-08-11_9.48.06.png
+  facebook: asonas.P
+  twitter: asonas
+  github: asonas
+  web:
+  description: 津山工業高等専門学校 電気電子工学科を修了後、武蔵野美術大学の通信学部に通いデザインを学ぶ。2010年に京都で行われた高専カンファレンスに感化され、今はスタートアップ系Web男子として日々を邁進。高専カンファレンスやTech系勉強会などによく出現する。
+-
+  name: そらは
+  image: http://pbs.twimg.com/profile_images/378800000551066529/d4a92c61fdb0ee77fb6d29ed644581b7.png
+  facebook:
+  twitter: sora_h
+  github: sorah
+  web: http://sorah.jp/
+  description:  |-
+    Rubyist, Ruby コミッタ。クックパッド技術部で開発基盤エンジニアをしています。
+    おそらく講師陣の中で唯一高専との接点が薄いと思われます。
+-
+  name: 青山 昂平
+  image: https://pbs.twimg.com/profile_images/415006704502181888/nLrtPzZI.png
+  facebook: aoyama.kohei
+  twitter: a3geek
+  github: a3geek
+  web:
+  description: 福井高専電子情報工学科を4年時に中退、新卒としてチームラボ株式会社に入社。普段はインタラクティブチームにてサイネージなどの開発に取り組んでおり、Ruby/Railsは趣味で勉強、開発に使用している。ゆるふわガチ勢を信条に、日々強さを求めて戦っている。
+-
+  name: 成田 一生
+  image: http://pbs.twimg.com/profile_images/1296753997/image.jpg
+  facebook: mirakui
+  twitter: mirakui
+  github: mirakui
+  web:
+  description: クックパッドで働くインフラエンジニア。主に Rails アプリケーションのパフォーマンス改善を担当。技術評論社 WEB+DB PRESS Vol.70に「Rails高速化特集」を書きました。出身高専は豊田高専情報工学科。好きな動物はパンダ。
+-
+  name: 松岡 浩平
+  image:  http://pbs.twimg.com/profile_images/16229292/face.jpg
+  twitter: machu
+  github: machu
+  web: http://www.machu.jp/diary/
+  description: tDiaryコミッタ。Rubyの簡潔さと奥深さに魅せられて早10年。ブログ「まちゅダイアリー」や雑誌「日経ソフトウエア」、「WEB+DBPRESS」にセキュリティや技術ネタを掲載。2児の父になり、昼は家族とプラレールのコース作成、深夜は1人でひっそりプログラミング。いつか子どもとペアプロするのが夢。久留米高専、制御情報工学科卒。
+-
+  name: 関口 亮一
+  image: http://www.gravatar.com/avatar/cd07d1d30d4edcc5d5c5fbdd21eb45af.png
+  twitter: ryopeko
+  github: ryopeko
+  web: http://ryopeko.hatenablog.com/
+  description: 都立航空高専（現都立産業技術高専） 電子工学科卒。パーフェクトRuby共著者のうちの一人。株式会社ディー・エヌ・エー所属。大規模新卒エンジニア研修を担当したこともあって人に教えるのは得意だとか得意じゃないとか。得意な言語はPerl。Perlを知ると世界の真理が見えてくる。
+-
+  name: 堀 邦明
+  image: https://pbs.twimg.com/profile_images/1528981693/holygrail.jpg
+  facebook: kuniaki.hori
+  twitter: HolyGrail
+  github: HolyGrail
+  web: http://diary.holygrail.dj/
+  description: 徳山工業高等専門学校 情報電子工学科卒業。株式会社spice lifeに所属。Rails2年生。Kuniaki.rb主催。WEB+DB PRESSのインタビューでつつみともよにネコミミをつけさせて各所から賞賛の言葉を浴びる。
+-
+  name: 織田 敬子
+  image: https://pbs.twimg.com/profile_images/3305241415/339184fc84694037afcbd3e9764a588c.jpeg
+  facebook: keiko713
+  twitter: keiko713
+  github: keiko713
+  description: 石川工業高等専門学校 電子情報工学科卒。大学に進学し学部卒でSIerに入社。ふと思い立って退職してサンフランシスコで2年ほど過ごし、現在HerokuにてSuppport EngineerとしてRailsに限らずいろんな質問に答えたり答えなかったり。
+-
+  name: 喜多 啓介
+  image: http://pbs.twimg.com/profile_images/436698798849421312/RthClfQJ.png
+  facebook: kei.kita2501
+  twitter: kitak
+  github: kitak
+  description: 石川工業高等専門学校 専攻科 電子機械工学専攻卒。今年の4月から株式会社paperboy&co.の新卒氏。ペパボ1、2を争う眼光の鋭さだが、実際はかなりのほほんとした性格。社内のIRCでantipopさんと<a href="http://iiirc.org/snippets/274">愉快なやりとり</a>を日々繰り広げている。
+-
+  name: 田中 洸一
+  image: https://pbs.twimg.com/profile_images/3013140319/26b15adb2d6059e6e2ccc4670e2fb40e.jpeg
+  facebook: koichi.tanaka.56
+  twitter: tanaka51
+  github: tanaka51-jp
+  description: 株式会社万葉 所属。Rails エンジニア。休日はプログラミングしいてるかアニメを見ているか麻雀をしているかお酒を飲んでいます。木更津高専 情報工学科 中退。
+-
+  name: 立花 豊
+  image: https://pbs.twimg.com/profile_images/2206703597/myprofile_bigger.jpg
+  twitter: saboyutaka
+  github: saboyutaka
+  description: KCS北九州情報専門学校、北海道情報大学をダブルスクールで卒業。新卒で入ったSIerで約1年半Javaをたしなむ。その後、ITカルチャーを見るために3ヶ月間渡米。帰国後スタッフで参加したRubyKaigi2013でpixivの中の人と知り合い入社。BOOTH.pmの開発で日々Railsと戯れる。最近はGrowth Hackに興味あり。
