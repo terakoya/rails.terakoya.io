@@ -1,0 +1,191 @@
+%header
+  .container
+    %h1.logo
+    %img( src="/images/logo.png" )
+
+.container
+  .content
+    %h2
+      Rails寺子屋 x Kosenconfについて
+    .about.clearfix
+      %h3
+        趣意書
+      %p
+        Rails寺子屋はWebアプリを作るための強力なツール"Ruby on Rails"を使ってWebアプリ作りを実践しながら学ぶイベントです。日頃からRailsを使って開発している師範（コーチ）と、ほかの参加者のみなさんと、一緒にWebアプリ作りをはじめてみませんか。
+        %br
+        本イベントはRails寺子屋と
+        %a( href="http://kosenconf.jp/" )
+          高専カンファレンス
+        の合同イベントです。
+      %h3
+        第5回 開催情報
+      .left-box
+        %h4
+          日時
+        %strong
+          2014年10月25日(土) 10:00 開始 (9:30分開場)
+        %h4
+          参加対象者
+        %p
+          高専学生 卒業生 教職員
+        %h4
+          会場
+        #venue
+          %address
+            %a(href="http://www.team-lab.com/")
+              %strong チームラボ株式会社
+            %a(href="http://www.team-lab.com/about#access") (アクセス)
+            %br
+            %a(href="https://www.google.com/maps?q=35.704454,139.756738&t=m&z=16") 大きな地図で見る
+            %br
+            %span.address 東京都文京区本郷1-11-6 東接本郷ビル6F
+            %br
+            %span 最寄り駅: 水道橋駅
+        #map
+      .right-box.clearfix
+        %h4
+          参加登録
+        %p
+          %a(href="http://rails-terakoya.doorkeeper.jp/events/15096" target="_blank")
+            %button.btn.submit-btn 参加登録フォームへ
+        %h4
+          当日の持ち物
+        .equipment
+          %p
+            お弁当とPCを持参してください。
+        %h4
+          時間割
+        .time-table
+          %table.table.table-striped
+            %tr
+              %td
+                9:30
+              %td
+                開場
+            %tr
+              %td
+                10:00 - 12:00
+              %td
+                環境構築 & ワークショップ
+            %tr
+              %td
+                12:00 - 13:00
+              %td
+                ランチ
+            %tr
+              %td
+                13:00 - 17:00
+              %td
+                ワークショップ
+            %tr
+              %td
+                17:00 - 19:00
+              %td
+                懇親会
+            %tr
+              %td
+                19:00
+              %td
+                解散
+
+    %h2
+      過去の開催
+    .archives
+      %ul
+        %li
+          %a(href="/archives/1")
+            Rails寺子屋 x kosenconf 第1回
+        %li
+          %a(href="/archives/2")
+            Rails寺子屋 x kosenconf 第2回
+        %li
+          %a(href="/archives/3")
+            Rails寺子屋 x kosenconf 第3回
+        %li
+          %a(href="/archives/4")
+            Rails寺子屋 x kosenconf 第4回
+
+    %h2
+      師範(コーチ)
+    .masters.clearfix
+      - data.masters['5'].each do |master|
+        .master
+          .icon
+            %img( src="#{master['image']}" width="75" class="shadow" )
+          .name
+            = "#{master['name']} @#{master['twitter']}"
+          %ul.clearfix
+            - unless master['twitter'].nil?
+              %li
+                %a( href="https://twitter.com/#{master['twitter']}" class="link" )
+                  %i.icon-twitter
+
+            - unless master['facebook'].nil?
+              %li
+                %a( href="https://facebook.com/#{master['facebook']}" class="link" )
+                  %i.icon-facebook
+
+            - unless master['github'].nil?
+              %li
+                %a( href="https://github.com/#{master['github']}" class="link" )
+                  %i.icon-github
+            - unless master['web'].nil?
+              %li
+                %a( href="#{master['web']}" class="link" )
+                  %i.icon-home
+          .description
+            = master['description']
+    %h2
+      助っ人
+    .collaborators.clearfix
+      .calligrapher
+        %span.role
+          題字
+        .icon
+          %img( src="https://pbs.twimg.com/profile_images/3465466052/cbf96df11d49bf4a4af0a60e1fa6c565.png" width="75" class="shadow" )
+        .name
+          さいとうかずよし
+        %ul.clearfix
+          %li
+            %a( href="http://twitter.com/kazuyoshi" class="link" )
+              %i.icon-twitter
+      .designer
+        %span.role
+          絵師
+        .icon
+          %img( src="https://pbs.twimg.com/profile_images/429648206129926145/YMcykICv.png" width="75" class="shadow" )
+        .name
+          あらなぎ
+        %ul.clearfix
+          %li
+            %a( href="http://twitter.com/aranagi" class="link" )
+              %i.icon-twitter
+
+    %h2
+      スポンサー
+    .sponsors.clearfix
+      .sponsor
+        = image_tag "spicelife.png", width: "250px"
+        = image_tag "team_lab.png", width: "160px"
+
+    %h2
+      よくある質問
+    .faqs
+      .question
+        Q. 参加費はどのくらいかかりますか？
+      .answer
+        A. 無料です。申し込むときにはわくわくした気持ちだけあればいいです。
+      .question
+        Q. 当日までにやっておくと良いことはありますか？
+      .answer
+        A. 特にありません。当日、忘れ物をしないようにして下さい！
+      .question
+        Q. プログラミングの経験があります。手伝うことはできますか？
+      .answer
+        A. Rails寺子屋は師範になれる人を捜しています。いずれかの師範までご連絡ください。
+
+  %footer
+    %span
+%script
+  var lat = 35.704454;
+  var lng = 139.756738;
