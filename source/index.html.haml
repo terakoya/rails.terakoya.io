@@ -18,12 +18,12 @@
           高専カンファレンス
         の合同イベントです。
       %h3
-        第5回 開催情報
+        第6回 開催情報
       .left-box
         %h4
           日時
         %strong
-          2014年10月25日(土) 10:00 開始 (9:30分開場)
+          2015年03月28日(土) 10:00 開始 (09:30分開場)
         %h4
           参加対象者
         %p
@@ -32,21 +32,21 @@
           会場
         #venue
           %address
-            %a(href="http://www.team-lab.com/")
-              %strong チームラボ株式会社
-            %a(href="http://www.team-lab.com/about#access") (アクセス)
+            %a(href="https://info.cookpad.com/")
+              %strong クックパッド株式会社
+            %a(href="https://info.cookpad.com/location/") (アクセス)
             %br
-            %a(href="https://www.google.com/maps?q=35.704454,139.756738&t=m&z=16") 大きな地図で見る
+            %a(href="https://www.google.com/maps?q=35.642137,139.71345&t=m&z=16") 大きな地図で見る
             %br
-            %span.address 東京都文京区本郷1-11-6 東接本郷ビル6F
+            %span.address 東京都渋谷区恵比寿4-20-3 恵比寿ガーデンプレイスタワー12F
             %br
-            %span 最寄り駅: 水道橋駅
+            %span 最寄り駅: JR山手線・東京メトロ日比谷線 恵比寿駅
         #map
       .right-box.clearfix
         %h4
           参加登録
         %p
-          %a(href="http://rails-terakoya.doorkeeper.jp/events/15096" target="_blank")
+          %a(href="http://rails-terakoya.doorkeeper.jp/events/19813" target="_blank")
             %button.btn.submit-btn 参加登録フォームへ
         %h4
           当日の持ち物
@@ -104,11 +104,14 @@
         %li
           %a(href="/archives/4")
             Rails寺子屋 x kosenconf 第4回
+        %li
+          %a(href="/archives/5")
+            Rails寺子屋 x kosenconf 第5回
 
     %h2
       師範(コーチ)
     .masters.clearfix
-      - data.masters['5'].each do |master|
+      - data.masters['6'].each do |master|
         .master
           .icon
             %img( src="#{master['image']}" width="75" class="shadow" )
@@ -166,7 +169,6 @@
     .sponsors.clearfix
       .sponsor
         = image_tag "spicelife.png", width: "250px"
-        = image_tag "team_lab.png", width: "160px"
 
     %h2
       よくある質問
@@ -187,5 +189,5 @@
   %footer
     %span
 %script
-  var lat = 35.704454;
-  var lng = 139.756738;
+  var lat = 35.642137
+  var lng = 139.71345
