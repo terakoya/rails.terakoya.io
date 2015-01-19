@@ -61,6 +61,13 @@
   web:
   description: クックパッドで働くインフラエンジニア。主に Rails アプリケーションのパフォーマンス改善を担当。技術評論社 WEB+DB PRESS Vol.70に「Rails高速化特集」を書きました。出身高専は豊田高専情報工学科。好きな動物はパンダ。
 -
+  name: 松岡 浩平
+  image:  http://pbs.twimg.com/profile_images/16229292/face.jpg
+  twitter: machu
+  github: machu
+  web: http://www.machu.jp/diary/
+  description: tDiaryコミッタ。Rubyの簡潔さと奥深さに魅せられて早10年。ブログ「まちゅダイアリー」や雑誌「日経ソフトウエア」、「WEB+DBPRESS」にセキュリティや技術ネタを掲載。2児の父になり、昼は家族とプラレールのコース作成、深夜は1人でひっそりプログラミング。いつか子どもとペアプロするのが夢。久留米高専、制御情報工学科卒。
+-
   name: 堀 邦明
   image: https://pbs.twimg.com/profile_images/1528981693/holygrail.jpg
   facebook: kuniaki.hori
