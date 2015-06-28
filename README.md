@@ -6,7 +6,7 @@
 ## Setup
 
 ``` sh
-$ git clone git@github.com/terakoya/rails.terakoya.io.git
+$ git clone git@github.com:terakoya/rails.terakoya.io.git
 $ cd rails.terakoya.io
 $ bundle install
 ```
