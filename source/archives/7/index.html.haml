@@ -18,12 +18,12 @@
           高専カンファレンス
         の合同イベントです。
       %h3
-        第8回 開催情報
+        第7回 開催情報
       .left-box
         %h4
           日時
         %strong
-          2016年03月26日(土) 10:00 開始 (09:30分開場)
+          2015年08月01日(土) 10:00 開始 (09:30分開場)
         %h4
           参加対象者
         %p
@@ -32,21 +32,21 @@
           会場
         #venue
           %address
-            %a(href="http://www.drecom.co.jp/")
-              %strong 株式会社ドリコム
-            %a(href="http://www.drecom.co.jp/company/accessmap/") (アクセス)
+            %a(href="http://www.pixiv.co.jp/")
+              %strong ピクシブ株式会社
+            %a(href="http://www.pixiv.co.jp/company/") (アクセス)
             %br
-            %a(href="https://goo.gl/maps/u3VjuepgtCv") 大きな地図で見る
+            %a(href="http://goo.gl/maps/gn3xd") 大きな地図で見る
             %br
-            %span.address 東京都目黒区下目黒1丁目8-1 アルコタワー17F
+            %span.address 東京都渋谷区千駄ヶ谷4-23-5 JPR千駄ヶ谷ビル2F
             %br
-            %span 最寄り駅: JR東急目黒線, 東京メトロ南北線, 都営地下鉄三田線
+            %span 最寄り駅: JR代々木駅, JR千駄ヶ谷駅, 東京メトロ北参道駅
         #map
       .right-box.clearfix
         %h4
           参加登録
         %p
-          %a(href="https://rails-terakoya.doorkeeper.jp/events/38769" target="_blank")
+          %a(href="https://rails-terakoya.doorkeeper.jp/events/27656" target="_blank")
             %button.btn.submit-btn 参加登録フォームへ
         %h4
           当日の持ち物
@@ -110,14 +110,11 @@
         %li
           %a(href="/archives/6")
             Rails寺子屋 x kosenconf 第6回
-        %li
-          %a(href="/archives/7")
-            Rails寺子屋 x kosenconf 第7回
 
     %h2
       師範(コーチ)
     .masters.clearfix
-      - data.masters['8'].each do |master|
+      - data.masters['7'].each do |master|
         .master
           .icon
             %img( src="#{master['image']}" width="75" class="shadow" )
@@ -175,7 +172,7 @@
     .sponsors.clearfix
       .sponsor
         = image_tag "spicelife.png", width: "228px"
-        = image_tag "drecom.jpg"
+        = image_tag "pixiv.jpg"
 
     %h2
       よくある質問
@@ -196,5 +193,5 @@
   %footer
     %span
 %script
-  var lat = 35.631659;
-  var lng = 139.713408;
+  var lat = 35.680903;
+  var lng = 139.706761;
