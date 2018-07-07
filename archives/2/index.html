@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]> ><! <![endif]-->
+<html class='no-js'>
+  <!-- <![endif] -->
+  <head>
+    <meta charset='utf-8'>
+    <meta content='width=device-width, initial-scale=1.0, user-scalable=yes' name='viewport'>
+    <meta content='website' property='og:type'>
+    <meta content='http://rails.terakoya.io/' property='og:url'>
+    <meta content='Rails寺子屋' property='og:title'>
+    <meta content='Rails寺子屋' property='og:site_name'>
+    <meta content='Rails寺子屋はWebアプリを作るための強力なツール&amp;quot;Ruby on Rails&amp;quot;を使ってWebアプリ作りを実践しながら学ぶイベントです。' property='og:description'>
+    <meta content='http://rails.terakoya.io/images/ogp_logo.png' property='og:image'>
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <title>Rails寺子屋</title>
+    <link href='/css/normalize.css' rel='stylesheet'>
+    <link href='/css/main.css' rel='stylesheet'>
+    <link href='/css/bootstrap.css' rel='stylesheet'>
+    <link href='/css/font-awesome.css' rel='stylesheet'>
+    <link href='/css/style.css' rel='stylesheet'>
+    <script src='js/vendor/modernizr-2.6.1.min.js'></script>
+  </head>
+  <body>
+    <header>
+      <div class='container'>
+        <h1 class='logo'></h1>
+        <img src='/images/logo.png'>
+      </div>
+    </header>
+    <div class='container'>
+      <div class='content'>
+        <h2>
+          Rails寺子屋 x Kosenconfについて
+        </h2>
+        <div class='about clearfix'>
+          <h3>
+            趣意書
+          </h3>
+          <p>
+            Rails寺子屋はWebアプリを作るための強力なツール"Ruby on Rails"を使ってWebアプリ作りを実践しながら学ぶイベントです。日頃からRailsを使って開発している師範（コーチ）と、ほかの参加者のみなさんと、一緒にWebアプリ作りをはじめてみませんか。
+            <br>
+            本イベントはRails寺子屋と
+            <a href='http://kosenconf.jp/'>
+              高専カンファレンス
+            </a>
+            の合同イベントです。
+          </p>
+          <h3>
+            第2回 開催情報
+          </h3>
+          <div class='left-box'>
+            <h4>
+              日時
+            </h4>
+            <strong>
+              2013/8/3(土) 10:00 開始 (9:30分開場)
+            </strong>
+            <h4>
+              参加対象者
+            </h4>
+            <p>
+              高専学生 卒業生 教職員
+            </p>
+            <h4>
+              会場
+            </h4>
+            <div id='venue'>
+              <address>
+                <a href='http://www.pixiv.co.jp/'>
+                  <strong>ピクシブ株式会社</strong>
+                </a>
+                <a href='http://www.pixiv.co.jp/company/'>(アクセス)</a>
+                <br>
+                <a href='http://goo.gl/maps/gn3xd'>大きな地図で見る</a>
+                <br>
+                <span class='address'>東京都渋谷区千駄ヶ谷4-23-5 JPR千駄ヶ谷ビル5F</span>
+                <br>
+                <span>最寄り駅: JR代々木駅, JR千駄ヶ谷駅, 東京メトロ北参道駅</span>
+              </address>
+            </div>
+            <div id='map'></div>
+          </div>
+          <div class='right-box clearfix'>
+            <h4>
+              参加登録
+            </h4>
+            <p>
+              参加登録を締めきりました。
+              <br>
+              たくさんの応募ありがとうございました!
+              <br>
+              応募してくださった方には担当からメールにて連絡させていただいておりますのでご確認ください。
+            </p>
+            <h4>
+              当日の持ち物
+            </h4>
+            <div class='equipment'>
+              <p>
+                お弁当とPCを持参してください。
+              </p>
+            </div>
+            <h4>
+              時間割
+            </h4>
+            <div class='time-table'>
+              <table class='table table-striped'>
+                <tr>
+                  <td>
+                    9:30
+                  </td>
+                  <td>
+                    開場
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    10:00 - 12:00
+                  </td>
+                  <td>
+                    環境構築 & ワークショップ
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    12:00 - 13:00
+                  </td>
+                  <td>
+                    ランチ
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    13:00 - 17:00
+                  </td>
+                  <td>
+                    ワークショップ
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    17:00 - 19:00
+                  </td>
+                  <td>
+                    懇親会
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    19:00
+                  </td>
+                  <td>
+                    解散
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <h2>
+          過去の開催
+        </h2>
+        <div class='archives'>
+          <ul>
+            <li>
+              <a href='/archives/1'>
+                Rails寺子屋 x kosenconf 第1回
+              </a>
+            </li>
+          </ul>
+        </div>
+        <h2>
+          師範(コーチ)
+        </h2>
+        <div class='masters clearfix'>
+          <div class='master'>
+            <div class='icon'>
+              <img class='shadow' src='http://pbs.twimg.com/profile_images/378800000065478361/f0584a649326ef2e5f81bd0b96903525.png' width='75'>
+            </div>
+            <div class='name'>
+              五十嵐 邦明 @igaiga555
+            </div>
+            <ul class='clearfix'>
+              <li>
+                <a class='link' href='https://twitter.com/igaiga555'>
+                  <i class='icon-twitter'></i>
+                </a>
+              </li>
+              <li>
+                <a class='link' href='https://facebook.com/kuniaki.igarashi'>
+                  <i class='icon-facebook'></i>
+                </a>
+              </li>
+              <li>
+                <a class='link' href='https://github.com/igaiga'>
+                  <i class='icon-github'></i>
+                </a>
+              </li>
+            </ul>
+            <div class='description'>
+              株式会社万葉のrailsエンジニア。群馬高専卒業。一橋大学非常勤講師(ruby, rails)。著書に「スタートアップruby」。tokyu.rb, asakusa.rb所属。高専カンファレンス014東京実行委員長。em高専カンファレンスvol.1編集長。
+            </div>
+          </div>
+          <div class='master'>
+            <div class='icon'>
+              <img class='shadow' src='http://pbs.twimg.com/profile_images/3409680465/b25a28396d884723e1f3c6e9821789f1.jpeg' width='75'>
+            </div>
+            <div class='name'>
+              村田 賢太 @mrkn
+            </div>
+            <ul class='clearfix'>
+              <li>
+                <a class='link' href='https://twitter.com/mrkn'>
+                  <i class='icon-twitter'></i>
+                </a>
+              </li>
+              <li>
+                <a class='link' href='https://facebook.com/mrkn720'>
+                  <i class='icon-facebook'></i>
+                </a>
+              </li>
+              <li>
+                <a class='link' href='https://github.com/mrkn'>
+                  <i class='icon-github'></i>
+                </a>
+              </li>
+            </ul>
+            <div class='description'>
+              クックパッド株式会社の開発基盤エンジニア。苫小牧高専と旭川高専専攻科を卒業。
+              2009年に北大で博士号を取得し札幌で就職。CRuby のコミッタとして bigdecimal のメンテナンスを担当。
+              2年後に転職し現職へ。クックパッドでは開発基盤エンジニアとして社内のサービス開発エンジニアを幸せにすることで、
+              世界中の料理を楽しくすることに間接的に貢献している。
+            </div>
+          </div>
+          <div class='master'>
+            <div class='icon'>
+              <img class='shadow' src='http://pbs.twimg.com/profile_images/3433607286/e4cd5a708d9644957545b9b1165cf196.jpeg' width='75'>
+            </div>
+            <div class='name'>
+              大和田 純 @june29
+            </div>
+            <ul class='clearfix'>
+              <li>
+                <a class='link' href='https://twitter.com/june29'>
+                  <i class='icon-twitter'></i>
+                </a>
+              </li>
+              <li>
+                <a class='link' href='https://facebook.com/june29.jp'>
+                  <i class='icon-facebook'></i>
+                </a>
+              </li>
+              <li>
+                <a class='link' href='https://github.com/june29'>
+                  <i class='icon-github'></i>
+                </a>
+              </li>
+              <li>
+                <a class='link' href='http://june29.jp'>
+                  <i class='icon-home'></i>
+                </a>
+              </li>
+            </ul>
+            <div class='description'>
+              釧路高専情報工学科卒業。北海道生まれ少年漫画育ちのWebアプリケーション開発者。Ruby札幌に出会ってからは、日常の中で愛用する手になじむ道具としてRubyを選び続けている。「RubyKaigi」や「高専カンファレンス」の運営に関わったり、雑誌「WEB+DB PRESS」の連載をしたりと、源氏名「june29」で活動中。尊敬する人物は荒木飛呂彦先生。
+            </div>
+          </div>
+          <div class='master'>
+            <div class='icon'>
+              <img class='shadow' src='http://pbs.twimg.com/profile_images/1465459377/5494314_707716410.jpg' width='75'>
+            </div>
+            <div class='name'>
+              西嶋 悠貴 @yuki24
+            </div>
+            <ul class='clearfix'>
+              <li>
+                <a class='link' href='https://twitter.com/yuki24'>
+                  <i class='icon-twitter'></i>
+                </a>
+              </li>
+              <li>
+                <a class='link' href='https://facebook.com/yuki24'>
+                  <i class='icon-facebook'></i>
+                </a>
+              </li>
+              <li>
+                <a class='link' href='https://github.com/yuki24'>
+                  <i class='icon-github'></i>
+                </a>
+              </li>
+            </ul>
+            <div class='description'>
+              木更津高専情報工学科卒業。これまで、Ruby on Rails や Kaminari 等 Ruby で書かれたものをはじめ、多くのオープンソースプロジェクトへ貢献。高専時代は大の英語嫌いだったが、フィリピンに1年程滞在する過程で克服。
+            </div>
+          </div>
+          <div class='master'>
+            <div class='icon'>
+              <img class='shadow' src='http://pbs.twimg.com/profile_images/421144410147917824/IuySxIWS.png' width='75'>
+            </div>
+            <div class='name'>
+              佐々木 佳祐 @RooandQoo
+            </div>
+            <ul class='clearfix'>
+              <li>
+                <a class='link' href='https://twitter.com/RooandQoo'>
+                  <i class='icon-twitter'></i>
+                </a>
+              </li>
+              <li>
+                <a class='link' href='https://facebook.com/rooandqoo'>
+                  <i class='icon-facebook'></i>
+                </a>
+              </li>
+              <li>
+                <a class='link' href='https://github.com/rooandqoo'>
+                  <i class='icon-github'></i>
+                </a>
+              </li>
+            </ul>
+            <div class='description'>
+              釧路高専 20期情報工学科卒業。電気通信大学の院に通いつつピクシブ株式会社にてアルバイトに勤しむ。普段はAndroidのアプリケーション開発をしていて、Ruby/Railsは目下勉強中。高専カンファレンスを始めとした楽しい催し物とクラブミュージックが好き。
+            </div>
+          </div>
+          <div class='master'>
+            <div class='icon'>
+              <img class='shadow' src='http://pbs.twimg.com/profile_images/328365018/3411179234_d31d01f498_b.jpg' width='75'>
+            </div>
+            <div class='name'>
+              三浦 彩 @mitaku
+            </div>
+            <ul class='clearfix'>
+              <li>
+                <a class='link' href='https://twitter.com/mitaku'>
+                  <i class='icon-twitter'></i>
+                </a>
+              </li>
+              <li>
+                <a class='link' href='https://facebook.com/takumi.miura.9'>
+                  <i class='icon-facebook'></i>
+                </a>
+              </li>
+              <li>
+                <a class='link' href='https://github.com/mitaku'>
+                  <i class='icon-github'></i>
+                </a>
+              </li>
+            </ul>
+            <div class='description'>
+              秋田高専卒業。ソーシャル系Railsエンジニア。高専カンファレンスなどの開催をしている。雨が嫌いで、怠け者。Rubyで素数を数えて落ち着く。
+            </div>
+          </div>
+          <div class='master'>
+            <div class='icon'>
+              <img class='shadow' src='http://pbs.twimg.com/profile_images/1489032359/__________2011-08-11_9.48.06.png' width='75'>
+            </div>
+            <div class='name'>
+              藤原 裕也 @asonas
+            </div>
+            <ul class='clearfix'>
+              <li>
+                <a class='link' href='https://twitter.com/asonas'>
+                  <i class='icon-twitter'></i>
+                </a>
+              </li>
+              <li>
+                <a class='link' href='https://facebook.com/asonas.P'>
+                  <i class='icon-facebook'></i>
+                </a>
+              </li>
+              <li>
+                <a class='link' href='https://github.com/asonas'>
+                  <i class='icon-github'></i>
+                </a>
+              </li>
+            </ul>
+            <div class='description'>
+              津山工業高等専門学校 電気電子工学科を修了後、武蔵野美術大学の通信学部に通いデザインを学ぶ。2010年に京都で行われた高専カンファレンスに感化され、今はスタートアップ系Web男子として日々を邁進。高専カンファレンスやTech系勉強会などによく出現する。
+            </div>
+          </div>
+          <div class='master'>
+            <div class='icon'>
+              <img class='shadow' src='http://pbs.twimg.com/profile_images/378800000551066529/d4a92c61fdb0ee77fb6d29ed644581b7.png' width='75'>
+            </div>
+            <div class='name'>
+              そらは @sora_h
+            </div>
+            <ul class='clearfix'>
+              <li>
+                <a class='link' href='https://twitter.com/sora_h'>
+                  <i class='icon-twitter'></i>
+                </a>
+              </li>
+              <li>
+                <a class='link' href='https://github.com/sorah'>
+                  <i class='icon-github'></i>
+                </a>
+              </li>
+              <li>
+                <a class='link' href='http://sorah.jp'>
+                  <i class='icon-home'></i>
+                </a>
+              </li>
+            </ul>
+            <div class='description'>
+              クックパッドで開発基盤エンジニアをしている中卒 Rubyist, Ruby コミッタ。こわくないです。
+            </div>
+          </div>
+          <div class='master'>
+            <div class='icon'>
+              <img class='shadow' src='http://pbs.twimg.com/profile_images/3786038276/78d3f4b1f18b6a645582cf675df9eb6f.png' width='75'>
+            </div>
+            <div class='name'>
+              青山 昂平 @_a__san
+            </div>
+            <ul class='clearfix'>
+              <li>
+                <a class='link' href='https://twitter.com/_a__san'>
+                  <i class='icon-twitter'></i>
+                </a>
+              </li>
+              <li>
+                <a class='link' href='https://facebook.com/aoyama.kohei'>
+                  <i class='icon-facebook'></i>
+                </a>
+              </li>
+              <li>
+                <a class='link' href='https://github.com/a3geek'>
+                  <i class='icon-github'></i>
+                </a>
+              </li>
+            </ul>
+            <div class='description'>
+              福井高専電子情報工学科を4年時に中退、新卒としてチームラボ株式会社に入社。普段はインタラクティブチームにてサイネージなどの開発に取り組んでおり、Ruby/Railsは趣味で勉強、開発に使用している。ゆるふわガチ勢を信条に、日々強さを求めて戦っている。
+            </div>
+          </div>
+          <div class='master'>
+            <div class='icon'>
+              <img class='shadow' src='http://pbs.twimg.com/profile_images/1296753997/image.jpg' width='75'>
+            </div>
+            <div class='name'>
+              成田 一生 @mirakui
+            </div>
+            <ul class='clearfix'>
+              <li>
+                <a class='link' href='https://twitter.com/mirakui'>
+                  <i class='icon-twitter'></i>
+                </a>
+              </li>
+              <li>
+                <a class='link' href='https://facebook.com/mirakui'>
+                  <i class='icon-facebook'></i>
+                </a>
+              </li>
+              <li>
+                <a class='link' href='https://github.com/mirakui'>
+                  <i class='icon-github'></i>
+                </a>
+              </li>
+            </ul>
+            <div class='description'>
+              クックパッドで働くインフラエンジニア。主に Rails アプリケーションのパフォーマンス改善を担当。技術評論社 WEB+DB PRESS Vol.70に「Rails高速化特集」を書きました。出身高専は豊田高専情報工学科。好きな動物はパンダ。
+            </div>
+          </div>
+          <div class='master'>
+            <div class='icon'>
+              <img class='shadow' src='http://pbs.twimg.com/profile_images/378800000518168390/1da621b3d554422aaba68e82111542d3.png' width='75'>
+            </div>
+            <div class='name'>
+              濱崎 健吾 @hmsk
+            </div>
+            <ul class='clearfix'>
+              <li>
+                <a class='link' href='https://twitter.com/hmsk'>
+                  <i class='icon-twitter'></i>
+                </a>
+              </li>
+            </ul>
+            <div class='description'>
+              北九州高専制御情報工学科卒業。五十嵐さんが講師の講義のティーチングアシスタント。
+            </div>
+          </div>
+          <div class='master'>
+            <div class='icon'>
+              <img class='shadow' src='http://pbs.twimg.com/profile_images/16229292/face.jpg' width='75'>
+            </div>
+            <div class='name'>
+              松岡 浩平 @machu
+            </div>
+            <ul class='clearfix'>
+              <li>
+                <a class='link' href='https://twitter.com/machu'>
+                  <i class='icon-twitter'></i>
+                </a>
+              </li>
+              <li>
+                <a class='link' href='https://github.com/machu'>
+                  <i class='icon-github'></i>
+                </a>
+              </li>
+              <li>
+                <a class='link' href='http://www.machu.jp/diary/'>
+                  <i class='icon-home'></i>
+                </a>
+              </li>
+            </ul>
+            <div class='description'>
+              tDiaryコミッタ。Rubyの簡潔さと奥深さに魅せられて早10年。ブログ「まちゅダイアリー」や雑誌「日経ソフトウエア」、「WEB+DBPRESS」にセキュリティや技術ネタを掲載。2児の父になり、昼は家族とプラレールのコース作成、深夜は1人でひっそりプログラミング。いつか子どもとペアプロするのが夢。久留米高専、制御情報工学科卒。
+            </div>
+          </div>
+        </div>
+        <h2>
+          助っ人
+        </h2>
+        <div class='collaborators clearfix'>
+          <div class='calligrapher'>
+            <span class='role'>
+              題字
+            </span>
+            <div class='icon'>
+              <img class='shadow' src='https://pbs.twimg.com/profile_images/3465466052/cbf96df11d49bf4a4af0a60e1fa6c565.png' width='75'>
+            </div>
+            <div class='name'>
+              さいとうかずよし
+            </div>
+            <ul class='clearfix'>
+              <li>
+                <a class='link' href='http://twitter.com/kazuyoshi'>
+                  <i class='icon-twitter'></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class='designer'>
+            <span class='role'>
+              絵師
+            </span>
+            <div class='icon'>
+              <img class='shadow' src='https://pbs.twimg.com/profile_images/429648206129926145/YMcykICv.png' width='75'>
+            </div>
+            <div class='name'>
+              あらなぎ
+            </div>
+            <ul class='clearfix'>
+              <li>
+                <a class='link' href='http://twitter.com/aranagi'>
+                  <i class='icon-twitter'></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <h2>
+          よくある質問
+        </h2>
+        <div class='faqs'>
+          <div class='question'>
+            Q. 参加費はどのくらいかかりますか？
+          </div>
+          <div class='answer'>
+            A. 無料です。申し込むときにはわくわくした気持ちだけあればいいです。
+          </div>
+          <div class='question'>
+            Q. 当日までにやっておくと良いことはありますか？
+          </div>
+          <div class='answer'>
+            A. 特にありません。当日、忘れ物をしないようにして下さい！
+          </div>
+          <div class='question'>
+            Q. プログラミングの経験があります。手伝うことはできますか？
+          </div>
+          <div class='answer'>
+            A. Rails寺子屋は師範になれる人を捜しています。いずれかの師範までご連絡ください。
+          </div>
+        </div>
+      </div>
+      <footer>
+        <span></span>
+      </footer>
+    </div>
+    <script>
+      var lat = 35.680903;
+      var lng = 139.706761;
+    </script>
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js'></script>
+    <script>
+      window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')
+    </script>
+  </body>
+  <script src='/js/vendor/jquery-1.8.0.min.js'></script>
+  <script src='https://maps.google.com/maps/api/js?sensor=true'></script>
+  <script src='/js/gmaps.js'></script>
+  <script src='/js/app.js'></script>
+</html>
