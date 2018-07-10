@@ -234,6 +234,9 @@ tr:nth-child(odd) td {
 }
 
 .sponsors {
+  display: flex;
+  align-items: center;
+
   .sponsor {
     img {
       margin-right: 20px;
@@ -271,4 +274,8 @@ tr:nth-child(odd) td {
 .logo-pixiv {
   width: 270px;
   padding: 20px;
+}
+
+.logo-cookpad {
+  width: 370px;
 }
